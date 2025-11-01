@@ -32,19 +32,19 @@ main:
     conference: Iran National AI Conference, 2021 (In Persian)
     image: https://taheritajar.net/academic/assets/img/no_image.jpg
 
-  - title: "Large Language Model-Powered Virtual Assistants for In-situ Secondary Language Acquisition"
-    authors: Jeffrey Benson, Austin Coleman, Brandon Britt, Alireza Taheritajar, Jason Orlosky
-    conference_short: In-Progress
-    conference: In progress
-    notes: In progress
-    image: https://taheritajar.net/academic/assets/img/no_image.jpg
+  # - title: "Large Language Model-Powered Virtual Assistants for In-situ Secondary Language Acquisition"
+  #   authors: Jeffrey Benson, Austin Coleman, Brandon Britt, Alireza Taheritajar, Jason Orlosky
+  #   conference_short: In-Progress
+  #   conference: In progress
+  #   notes: In progress
+  #   image: https://taheritajar.net/academic/assets/img/no_image.jpg
 
-  - title: "A Comparison of Empathy and Gaze Behavior in 2D vs 3D Immersive Training for Hospice Care"
-    authors: Lynsey Steinberg, Alireza Taheritajar, Jason Orlosky, Genieve Lucas
-    conference_short: In-Progress
-    conference: In progress
-    notes: In progress
-    image: https://taheritajar.net/academic/assets/img/no_image.jpg
+  # - title: "A Comparison of Empathy and Gaze Behavior in 2D vs 3D Immersive Training for Hospice Care"
+  #   authors: Lynsey Steinberg, Alireza Taheritajar, Jason Orlosky, Genieve Lucas
+  #   conference_short: In-Progress
+  #   conference: In progress
+  #   notes: In progress
+  #   image: https://taheritajar.net/academic/assets/img/no_image.jpg
 
   # - title: "ImageNet3D: Towards General-Purpose Object-Level 3D Understanding"
   #   authors: Wufei Ma, Guofeng Zhang, Qihao Liu, Guanning Zeng, Adam Kortylewski, <strong>Yaoyao Liu</strong>, Alan Yuille
