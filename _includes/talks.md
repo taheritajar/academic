@@ -10,8 +10,10 @@
 
 <h4 style="margin:0 10px 0;">Acoustic Side Channel Attacks</h4>
 <ul style="margin:0 0 20px;">
-  <li><a href="https://icics2024.aegean.gr/" target="_blank" rel="noopener noreferrer"><autocolor>International Conference on Information and Communications Security (ICICS 2024)</autocolor></a></li>
   <li><a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/index.html" target="_blank" rel="noopener noreferrer"><autocolor>CANS 2025, Osaka University</autocolor></a></li>
+  <li><a href="https://icics2024.aegean.gr/" target="_blank" rel="noopener noreferrer"><autocolor>International Conference on Information and Communications Security (ICICS 2024)</autocolor></a></li>
+  <li><a href="https://events.afcea.org/Augusta24/Public/SpeakerDetails.aspx?FromPage=Speakers.aspx&ContactID=167451" target="_blank" rel="noopener noreferrer"><autocolor>TechNet Augusta 2024</autocolor></a></li>
+  <li><a href="https://events.afcea.org/Augusta23/Public/Content.aspx?ID=100720" target="_blank" rel="noopener noreferrer"><autocolor>TechNet Augusta 2023</autocolor></a></li>
 </ul>
 
 
