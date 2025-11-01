@@ -2,9 +2,10 @@ main:
 
   - title: "Scalable Object Detection in Mixed Reality using Incremental Re-training and One-shot 3D Annotation"
     authors: Alireza Taheritajar, Jeffrey Benson, Brandon Wilburn, Jieqiong Zhao, Jason Orlosky
-    conference_short: TVCG
-    conference: Submitted to IEEE Transactions on Visualization and Computer Graphics (TVCG). 
-    notes: Submitted
+    conference_short: ISMAR
+    conference: 2025 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)
+    # notes: Submitted
+    image: https://taheritajar.net/academic/assets/img/Scalable.jpg
 
   - title: "Large Language Model-Powered Virtual Assistants for In-situ Secondary Language Acquisition"
     authors: Jeffrey Benson, Austin Coleman, Brandon Britt, Alireza Taheritajar, Jason Orlosky
@@ -21,21 +22,34 @@ main:
   - title: "Acoustic Side Channel Attack on Keyboards Based on Typing Style"
     authors: Alireza Taheritajar, Reza Rahaeimehr
     conference_short: CANS
-    conference: Submitted to CANS 2025
-    notes: Submitted
+    conference:  24th International Conference on Cryptology and Network Security (CANS 2025)
+    # notes: Submitted
+    image: https://taheritajar.net/academic/assets/img/keyboards.png
 
   - title: "A Survey on Acoustic Side Channel Attacks on Keyboards"
     authors: Taheritajar, A., Harris, Z.M., Rahaeimehr, R.
     conference_short: ICICS
-    conference: Information and Communications Security (ICICS), 2024
+    conference: International Conference on Information and Communications Security (ICICS), 2024
+    image: https://taheritajar.net/academic/assets/img/survey.png
 
   - title: "A lightweight Tiny-YOLOv3 vehicle detection approach"
     authors: Taheri Tajar, A., Ramazani, A., Mansoorizadeh, M.
     conference_short: JRTIP
     conference: Journal of Real-Time Image Processing, 2021
+    image: https://taheritajar.net/academic/assets/img/A_lightweight.jpg
 
   - title: "Automatic image description with attention mechanism"
     authors: Heidari, E., Abdolmaleki, M., Taheri Tajar, A., et al.
-    conference_short: National AI Conference
-    conference: National AI Conference, 2021 (In Persian)
+    conference_short: INAC
+    conference: Iran National AI Conference, 2021 (In Persian)
+
+  # - title: "ImageNet3D: Towards General-Purpose Object-Level 3D Understanding"
+  #   authors: Wufei Ma, Guofeng Zhang, Qihao Liu, Guanning Zeng, Adam Kortylewski, <strong>Yaoyao Liu</strong>, Alan Yuille
+  #   conference_short: NeurIPS
+  #   conference: NeurIPS 2024 Datasets and Benchmarks Track.
+  #   pdf: https://yaoyaoliu.web.illinois.edu/papers/ImageNet3D_Towards_General_Purpose_Object_Level_3D_Understanding.pdf
+  #   bibtex: https://dblp.org/rec/journals/corr/abs-2406-09613.html?view=bibtex
+  #   data: https://github.com/wufeim/imagenet3d
+  #   page: https://imagenet3d.github.io/
+  #   image: https://img.yliu.me/teaser/imagenet3d.png
 
