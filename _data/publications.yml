@@ -5,26 +5,14 @@ main:
     conference_short: ISMAR
     conference: 2025 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)
     # notes: Submitted
-    image: https://taheritajar.net/academic/assets/img/Scalable.jpg
-
-  - title: "Large Language Model-Powered Virtual Assistants for In-situ Secondary Language Acquisition"
-    authors: Jeffrey Benson, Austin Coleman, Brandon Britt, Alireza Taheritajar, Jason Orlosky
-    conference_short: In-Progress
-    conference: In progress
-    notes: In progress
-
-  - title: "A Comparison of Empathy and Gaze Behavior in 2D vs 3D Immersive Training for Hospice Care"
-    authors: Lynsey Steinberg, Alireza Taheritajar, Jason Orlosky, Genieve Lucas
-    conference_short: In-Progress
-    conference: In progress
-    notes: In progress
+    image: https://taheritajar.net/academic/assets/img/scalable.jpg
 
   - title: "Acoustic Side Channel Attack on Keyboards Based on Typing Style"
     authors: Alireza Taheritajar, Reza Rahaeimehr
     conference_short: CANS
     conference:  24th International Conference on Cryptology and Network Security (CANS 2025)
     # notes: Submitted
-    image: https://taheritajar.net/academic/assets/img/keyboards.png
+    image: https://taheritajar.net/academic/assets/img/Keyboards.png
 
   - title: "A Survey on Acoustic Side Channel Attacks on Keyboards"
     authors: Taheritajar, A., Harris, Z.M., Rahaeimehr, R.
@@ -42,6 +30,18 @@ main:
     authors: Heidari, E., Abdolmaleki, M., Taheri Tajar, A., et al.
     conference_short: INAC
     conference: Iran National AI Conference, 2021 (In Persian)
+
+  - title: "Large Language Model-Powered Virtual Assistants for In-situ Secondary Language Acquisition"
+    authors: Jeffrey Benson, Austin Coleman, Brandon Britt, Alireza Taheritajar, Jason Orlosky
+    conference_short: In-Progress
+    conference: In progress
+    notes: In progress
+
+  - title: "A Comparison of Empathy and Gaze Behavior in 2D vs 3D Immersive Training for Hospice Care"
+    authors: Lynsey Steinberg, Alireza Taheritajar, Jason Orlosky, Genieve Lucas
+    conference_short: In-Progress
+    conference: In progress
+    notes: In progress
 
   # - title: "ImageNet3D: Towards General-Purpose Object-Level 3D Understanding"
   #   authors: Wufei Ma, Guofeng Zhang, Qihao Liu, Guanning Zeng, Adam Kortylewski, <strong>Yaoyao Liu</strong>, Alan Yuille
