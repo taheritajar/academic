@@ -25,7 +25,7 @@ My biography is [here](./biography.md).
 
 Research interests: **Computer Vision**, **Mixed Reality**, **Robotics**, **Artificial Intelligence**
 
-Current: Ph.D. Student in Computer Science and Cyber Security, Augusta University — Georgia Cyber Center, Augusta, GA (Aug 2023 – Present)
+<!-- Current: Ph.D. Student in Computer Science and Cyber Security, Augusta University — Georgia Cyber Center, Augusta, GA (Aug 2023 – Present) -->
 
 {% include_relative _includes/news.md %}
 
