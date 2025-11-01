@@ -2,6 +2,31 @@
 
 <h2 style="margin: 60px 0px 10px;">Invited Talks</h2>
 
+<h4 style="margin:0 10px 0;">Object Detection in Mixed Reality</h4>
+<ul style="margin:0 0 5px;">
+  <li><a href="https://www.consortiumedr.org/cedr-midyear-info/2025-midyear-registration" target="_blank" rel="noopener noreferrer"><autocolor>CEDR Conference, 2025</autocolor></a></li>
+  <li><a href="https://cps.uga.edu/index.php/cps2025/" target="_blank" rel="noopener noreferrer"><autocolor>Cyber-Physical Systems Innovation Symposium, 2025</autocolor></a></li>
+</ul>
+
+<h4 style="margin:0 10px 0;">Acoustic Side Channel Attacks</h4>
+<ul style="margin:0 0 20px;">
+  <li><a href="https://icics2024.aegean.gr/" target="_blank" rel="noopener noreferrer"><autocolor>International Conference on Information and Communications Security (ICICS 2024)</autocolor></a></li>
+  <li><a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/index.html" target="_blank" rel="noopener noreferrer"><autocolor>CANS 2025, Osaka University</autocolor></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+<!-- <h1 id="invited-talks"></h1>
+
+<h2 style="margin: 60px 0px 10px;">Invited Talks</h2>
+
 <h4 style="margin:0 10px 0;">Learning with 3D Generative Models.</h4>
 
 <ul style="margin:0 0 5px;">
@@ -46,4 +71,4 @@
 
 <ul style="margin:0 0 20px;">
   <li>Nanyang Technological University, July 2019.</li>
-</ul>
+</ul> -->
