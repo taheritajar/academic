@@ -3,7 +3,7 @@ title: Alireza Taheritajar
 position: PhD Student
 affiliation: Augusta University
 affiliation_link: https://taheritajar.net/
-affiliation_logo: ./assets/img/favicon.png
+affiliation_logo: ./assets/img/fav.png
 email: ataheritajar (at) augusta.edu
 
 # Search Engine Optimization (SEO)
@@ -25,7 +25,7 @@ linkedin: https://www.linkedin.com/in/alireza-taheri/
 twitter: https://twitter.com/alireza__tht/
 
 # Images 
-avatar: https://github.com/taheritajar/academic/avatar.png
+avatar: https://taheritajar.net/academic/avatar.png
 
 # Footnotes
 footnote: Copyright © 2024 Alireza Taheritajar. Built with
