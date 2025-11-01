@@ -1,9 +1,11 @@
 <h2 style="margin: 60px 0px 10px;">Contact</h2>
 
-614 E. Daniel St. MC-314
+Alireza Taheritajar
 <br />
-Champaign, IL 61820-7999
+Augusta, GA, USA
 <br />
-Phone: <a href="tel:+12173000910">217-300-0910</a>
+Email: <a href="mailto:ataheritajar@augusta.edu">ataheritajar@augusta.edu</a>
 <br />
-Office: <a href="https://maps.app.goo.gl/xvHRWG27wSZXQ1Cv7">5125</a>
+Website: <a href="https://taheritajar.net" target="_blank">taheritajar.net</a>
+<br />
+Phone: <a href="tel:+17063945443">+1 (706) 394-5443</a>
