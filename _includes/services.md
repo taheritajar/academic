@@ -1,5 +1,38 @@
 <h1 id="services"></h1>
 
+<h2 style="margin: 60px 0px 10px;">Services & Roles</h2>
+
+<h4 style="margin:0 10px 0;">Organization Committee</h4>
+<ul style="margin:0 0 5px;">
+  <li>Publicity Chair, <a href="https://aivr.science.uu.nl/2026/aixvr2026_oc.html" target="_blank" rel="noopener noreferrer"><autocolor>IEEE AIxVR 2026</autocolor></a></li>
+  <li>Vice President, Computer & Cyber Graduate Student Organization, Augusta University, 2023</li>
+  <li>Head of Entrepreneurship Student Committee, Bu-Ali Sina University, 2018</li>
+  <li>Member of the Executive Committee, 14th Alumni Conference of the Festival of Nations, 2016</li>
+  <li>Head of Electrical and Robotic Student Committee, Bu-Ali Sina University, 2015</li>
+  <li>Coordinator, 1st Conference of Industry Relationship with University</li>
+</ul>
+
+<h4 style="margin:0 10px 0;">Conference Reviewer</h4>
+<ul style="margin:0 0 20px;">
+  <li><a href="https://aivr.science.uu.nl/2026/" target="_blank" rel="noopener noreferrer"><autocolor>IEEE AIxVR 2026</autocolor></a></li>
+  <li><a href="https://www.ieeeismar.net/2025/" target="_blank" rel="noopener noreferrer"><autocolor>ISMAR 2025</autocolor></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <h1 id="services"></h1>
+
 <h2 style="margin: 60px 0px 10px;">Services</h2>
 
 <h4 style="margin:0 10px 0;">Organization Committee</h4>
@@ -60,4 +93,4 @@
   <li><a href="https://cis.ieee.org/publications/t-neural-networks-and-learning-systems"><autocolor>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</autocolor></a></li>
   <li><a href="https://dl.acm.org/journal/tomm"><autocolor>ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)</autocolor></a></li>
   <li><a href="https://www.sciencedirect.com/journal/medical-image-analysis"><autocolor>Medical Image Analysis (MedIA)</autocolor></a></li>
-</ul>
+</ul> -->
