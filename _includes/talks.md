@@ -4,7 +4,7 @@
 
 <h4 style="margin:0 10px 0;">Object Detection in Mixed Reality</h4>
 <ul style="margin:0 0 5px;">
-  <li><a href="https://iccv.thecvf.com/virtual/2025/demonstration/2960"target="_blank" rel="noopener noreferrer"><autocolor>(Demo) International Conference on Computer Vision, ICCV 2025</autocolor></a></li>
+  <li><a href="https://iccv.thecvf.com/virtual/2025/demonstration/2960" target="_blank" rel="noopener noreferrer"><autocolor>(Demo) International Conference on Computer Vision, ICCV 2025</autocolor></a></li>
   <li><a href="https://www.consortiumedr.org/cedr-midyear-info/2025-midyear-registration" target="_blank" rel="noopener noreferrer"><autocolor>CEDR Conference, 2025</autocolor></a></li>
   <li><a href="https://cps.uga.edu/index.php/cps2025/" target="_blank" rel="noopener noreferrer"><autocolor>Cyber-Physical Systems Innovation Symposium, 2025</autocolor></a></li>
 </ul>
