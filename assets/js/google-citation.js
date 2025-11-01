@@ -30,7 +30,7 @@
 (function(exports) {
 	exports.googleCitation = function (repo, callback) {
 		var xmlhttp = new XMLHttpRequest(),
-			url = ["http://cse.bth.se/~fer/googlescholar-api/googlescholar.php?user=Uf9GqRsAAAAJ"],
+			url = ["http://cse.bth.se/~fer/googlescholar-api/googlescholar.php?user=SyK9A9EAAAAJ"],
 			useCallback = (typeof(callback) == "function");
 
 		//count the stars

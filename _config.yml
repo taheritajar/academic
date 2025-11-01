@@ -9,13 +9,13 @@ email: ataheritajar (at) augusta.edu
 # Search Engine Optimization (SEO)
 keywords: alireza taheritajar, taheritajar, augusta university
 canonical: https://taheritajar.net/
-description: Alireza Taheritajar is a PhD student at Augusta University. His research lies in meta-learning, incremental learning, and image generation.
+description: Alireza Taheritajar is a PhD student at Augusta University. His research lies in the intersection of computer vision, artificial intelligence, and mixed reality.
 
 # The option is used to enable the Illinois template.
 enable_hopkins_logo: true
 
 # The option is used to show the last update time.
-enable_last_update: false
+enable_last_update: true
 
 # Links
 link_type: icon #text/icon
