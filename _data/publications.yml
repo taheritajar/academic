@@ -15,7 +15,7 @@ main:
     conference:  24th International Conference on Cryptology and Network Security (CANS 2025)
     # notes: Submitted
     pdf: https://arxiv.org/abs/2403.08740
-    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:FRi-qnK8OUYJ:scholar.google.com/&output=citation&scisdr=ChUFjFVGENDZi458rVE:ABGrvjIAAAAAaQZ6tVGQpH3Q0mYA1xlQ2XFlp6w&scisig=ABGrvjIAAAAAaQZ6tXqEoYVKRJQgzw3L93GJKAE&scisf=4&ct=citation&cd=-1&hl=en
+    # bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:FRi-qnK8OUYJ:scholar.google.com/&output=citation&scisdr=ChUFjFVGENDZi458rVE:ABGrvjIAAAAAaQZ6tVGQpH3Q0mYA1xlQ2XFlp6w&scisig=ABGrvjIAAAAAaQZ6tXqEoYVKRJQgzw3L93GJKAE&scisf=4&ct=citation&cd=-1&hl=en
     image: https://taheritajar.net/academic/assets/img/Keyboards.png
 
   - title: "A Survey on Acoustic Side Channel Attacks on Keyboards"
@@ -23,7 +23,7 @@ main:
     conference_short: ICICS
     conference: International Conference on Information and Communications Security (ICICS), 2024
     pdf: https://link.springer.com/chapter/10.1007/978-981-97-8798-2_6
-    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:xNFmlENqSPEJ:scholar.google.com/&output=citation&scisdr=ChUFjFVGENDZi458iL0:ABGrvjIAAAAAaQZ6kL3jHdIaimT7d-1o80f4occ&scisig=ABGrvjIAAAAAaQZ6kNXIuuSMhk_sI0rjwyd_DoY&scisf=4&ct=citation&cd=-1&hl=en
+    # bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:xNFmlENqSPEJ:scholar.google.com/&output=citation&scisdr=ChUFjFVGENDZi458iL0:ABGrvjIAAAAAaQZ6kL3jHdIaimT7d-1o80f4occ&scisig=ABGrvjIAAAAAaQZ6kNXIuuSMhk_sI0rjwyd_DoY&scisf=4&ct=citation&cd=-1&hl=en
     image: https://taheritajar.net/academic/assets/img/survey.png
 
   - title: "A lightweight Tiny-YOLOv3 vehicle detection approach"
@@ -32,14 +32,14 @@ main:
     conference: Journal of Real-Time Image Processing, 2021
     code: https://github.com/taheritajar/A-lightweight-Tiny-YOLOv3-vehicle-detection-approach.git
     pdf: https://link.springer.com/article/10.1007/s11554-021-01131-w
-    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:TJKEhDkRp74J:scholar.google.com/&output=citation&scisdr=ChUFjFVGENDZi458cJU:ABGrvjIAAAAAaQZ6aJX8W1sGLSpAxIoYVmf4TZE&scisig=ABGrvjIAAAAAaQZ6aFv9YCSDSIVZZ338fXM4Ufw&scisf=4&ct=citation&cd=-1&hl=en
+    # bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:TJKEhDkRp74J:scholar.google.com/&output=citation&scisdr=ChUFjFVGENDZi458cJU:ABGrvjIAAAAAaQZ6aJX8W1sGLSpAxIoYVmf4TZE&scisig=ABGrvjIAAAAAaQZ6aFv9YCSDSIVZZ338fXM4Ufw&scisf=4&ct=citation&cd=-1&hl=en
     image: https://taheritajar.net/academic/assets/img/A_lightweight.jpg
 
 
   - title: "Automatic image description with attention mechanism"
     authors: Heidari, E., Abdolmaleki, M., Taheri Tajar, A., et al.
-    conference_short: INAC
-    conference: Iran National AI Conference, 2021 (In Persian)
+    conference_short: NCCITAI
+    conference: 4th National Conference on Computer, Information Technology and Applications of Artificial Intelligence (In Persian)
     pdf: https://en.civilica.com/doc/1238759/
     image: https://taheritajar.net/academic/assets/img/no_image.jpg
 
