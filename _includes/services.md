@@ -4,18 +4,15 @@
 
 <h4 style="margin:0 10px 0;">Organization Committee</h4>
 <ul style="margin:0 0 5px;">
-  <li>Publicity Chair, <a href="https://aivr.science.uu.nl/2026/aixvr2026_oc.html" target="_blank" rel="noopener noreferrer"><autocolor>IEEE AIxVR 2026</autocolor></a></li>
+  <li> <a href="https://aivr.science.uu.nl/2026/aixvr2026_oc.html" target="_blank" rel="noopener noreferrer"><autocolor>Publicity Chair, IEEE AIxVR 2026</autocolor></a></li>
   <li>Vice President, Computer & Cyber Graduate Student Organization, Augusta University, 2023</li>
-  <li>Head of Entrepreneurship Student Committee, Bu-Ali Sina University, 2018</li>
-  <li>Member of the Executive Committee, 14th Alumni Conference of the Festival of Nations, 2016</li>
-  <li>Head of Electrical and Robotic Student Committee, Bu-Ali Sina University, 2015</li>
-  <li>Coordinator, 1st Conference of Industry Relationship with University</li>
+
 </ul>
 
 <h4 style="margin:0 10px 0;">Conference Reviewer</h4>
 <ul style="margin:0 0 20px;">
-  <li><a href="https://aivr.science.uu.nl/2026/" target="_blank" rel="noopener noreferrer"><autocolor>IEEE AIxVR 2026</autocolor></a></li>
-  <li><a href="https://www.ieeeismar.net/2025/" target="_blank" rel="noopener noreferrer"><autocolor>ISMAR 2025</autocolor></a></li>
+  <li><a href="https://aivr.science.uu.nl/2026/" target="_blank" rel="noopener noreferrer"><autocolor>8th International Conference on Artificial Intelligence & extended and Virtual Reality(IEEE AIxVR 2026)</autocolor></a></li>
+  <li><a href="https://www.ieeeismar.net/2025/" target="_blank" rel="noopener noreferrer"><autocolor>IEEE International Symposium on Mixed and Augmented Reality (ISMAR 2025)</autocolor></a></li>
 </ul>
 
 
