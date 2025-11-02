@@ -10,7 +10,6 @@ I am a Ph.D. student in [Computer Science and Cyber Security](https://www.august
 I received my **M.Sc.** and **B.Sc.** degrees in **Electrical and Control Engineering** from [Bu-Ali Sina University](https://basu.ac.ir/en) in Hamedan, Iran, where I graduated as a top student. My master’s thesis focused on **vehicle counting and speed detection using computer vision**, and my undergraduate project involved designing a **camera robot** for real-time visual tracking. My biography is [here](./biography.md).
 
 Research interests: **Computer Vision**, **Mixed Reality**, **Robotics**, **Artificial Intelligence**
-<!-- Current: Ph.D. Student in Computer Science and Cyber Security, Augusta University — Georgia Cyber Center, Augusta, GA (Aug 2023 – Present) -->
 {% include_relative _includes/news.md %}
 
 {% include_relative _includes/contact.md %}
@@ -19,7 +18,7 @@ Research interests: **Computer Vision**, **Mixed Reality**, **Robotics**, **Arti
 
 
 
-
+<!-- Current: Ph.D. Student in Computer Science and Cyber Security, Augusta University — Georgia Cyber Center, Augusta, GA (Aug 2023 – Present) -->
 
 
 
