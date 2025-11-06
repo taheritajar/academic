@@ -4,6 +4,7 @@
   <li><strong>[2025]</strong> I gave a demo on <a href="">Object Detection in Mixed Reality</a> at <a href="https://iccv.thecvf.com/virtual/2025/demonstration/2960">ICCV 2025</a>.</li>
   <li><strong>[2025]</strong> I will serve as Publicity Chair for <a href="https://aivr.science.uu.nl/2026/aixvr2026_oc.html">IEEE AIxVR 2026</a>.</li>
   <li><strong>[2025]</strong> Our paper about <a href="">Object Detection in Mixed Reality</a> was accepted to <a href="https://www.ieeeismar.net/2025/program/papers/">ISMAR 2025</a>. <a href="https://youtu.be/qy2Ni9jySbQ?si=RJrTw3KitVnZsxFK">Video</a>.</li>
+  <li><strong>[2025]</strong> I will serve as a member of the Executive Board at <a href="https://www.icxr.org/">ICXR</a>.</li>
   <li><strong>[2025]</strong> Our paper about <a href="https://arxiv.org/abs/2403.08740">Acoustic Side Channel Attacks on Keyboards</a> was accepted to <a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/index.html">CANS 2025</a>.</li>
   <li><strong>[2025]</strong> I gave an invited talk about "Interactive Mixed Reality Object Detection for Education" at <a href="https://www.consortiumedr.org/cedr-midyear-info/2025-midyear-registration">CEDR 2025</a>.</li>
   <li><strong>[2025]</strong> I gave a talk about "Object Detection in Mixed Reality" at <a href="https://cps.uga.edu/index.php/cps2025/">Cyber-Physical Systems Innovation Symposium 2025</a>.</li>
