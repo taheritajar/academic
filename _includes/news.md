@@ -1,7 +1,8 @@
 <h2 style="margin: 60px 0 10px;">News</h2>
 
 <ul>
-  <li><strong>[2025]</strong> I gave a demo on <a href="">Object Detection in Mixed Reality</a> at <a href="https://iccv.thecvf.com/virtual/2025/demonstration/2960">ICCV 2025</a>.</li>
+  <li><strong>[Nov 2025]</strong> Our paper about <a href="">Using Visual RAG in Mixed Reality for Object Detection</a> was accepted to <a href="https://aivr.science.uu.nl/2026/">IEEE AIxVR 2026</a>.</li>
+  <li><strong>[Oct 2025]</strong> I gave a demo on <a href="">Object Detection in Mixed Reality</a> at <a href="https://iccv.thecvf.com/virtual/2025/demonstration/2960">ICCV 2025</a>.</li>
   <li><strong>[2025]</strong> I will serve as Publicity Chair for <a href="https://aivr.science.uu.nl/2026/aixvr2026_oc.html">IEEE AIxVR 2026</a>.</li>
   <li><strong>[2025]</strong> Our paper about <a href="">Object Detection in Mixed Reality</a> was accepted to <a href="https://www.ieeeismar.net/2025/program/papers/">ISMAR 2025</a>. <a href="https://youtu.be/qy2Ni9jySbQ?si=RJrTw3KitVnZsxFK">Video</a>.</li>
   <li><strong>[2025]</strong> I will serve as a member of the Executive Board at <a href="https://www.icxr.org/">ICXR</a>.</li>
