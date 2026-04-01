@@ -1,11 +1,20 @@
 main:
 
+    - title: "Augmented Reality Visual Retrieval for Object Detection and Corpus-Guided Content Generation"
+    authors: Alireza Taheritajar, Jeffrey Benson, Brandon Wilburn, Jieqiong Zhao, Jason Orlosky
+    conference_short: AIxVR
+    conference: 2026 IEEE International Conference on Artificial Intelligence and eXtended and Virtual Reality (AIxVR), Osaka, Japan
+    # notes: Submitted
+    pdf: https://doi.org/10.1109/AIxVR67263.2026.00015
+    # video: https://youtu.be/qy2Ni9jySbQ?si=RJrTw3KitVnZsxFK
+    image: https://taheritajar.net/academic/assets/img/ARVRag.jpg
+
   - title: "Scalable Object Detection in Mixed Reality using Incremental Re-training and One-shot 3D Annotation"
     authors: Alireza Taheritajar, Jeffrey Benson, Brandon Wilburn, Jieqiong Zhao, Jason Orlosky
     conference_short: ISMAR
     conference: 2025 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)
     # notes: Submitted
-    # pdf: https://arxiv.org/abs/2405.12345
+    pdf: https://drive.google.com/file/d/1_nIPxSEX3L4jaAVj1wSdFiRWBrcriDhs/view?usp=sharing
     video: https://youtu.be/qy2Ni9jySbQ?si=RJrTw3KitVnZsxFK
     image: https://taheritajar.net/academic/assets/img/scalable.jpg
 
