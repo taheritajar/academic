@@ -1,8 +1,8 @@
 <h2 style="margin: 60px 0 10px;">News</h2>
 
 <ul>
-  <li><strong>[Mar 2026]</strong> I participated as a presenter in the poster session at the <a href="https://taheritajar/academic/assets/img/41th-GRD.jpg">41st Graduate Research Day</a> at Augusta University.</li>
-  <li><strong>[Mar 2026]</strong> I was invited to serve as a panelist on the student panel for next week’s Spring into Graduate School recruitment fair at Augusta University.</li>
+  <li><strong>[Mar 2026]</strong> I participated as a presenter in the poster session at the <a href="https://taheritajar.net/academic/assets/img/41th-GRD.jpg">41st Graduate Research Day</a> at Augusta University.</li>
+  <li><strong>[Mar 2026]</strong> I was invited to serve as a panelist on the student panel for Graduate School recruitment fair at Augusta University.</li>
   <li><strong>[Nov 2025]</strong> Our paper about <a href="https://doi.org/10.1109/AIxVR67263.2026.00015">Using Visual RAG in Mixed Reality for Object Detection</a> was accepted to <a href="https://aivr.science.uu.nl/2026/">IEEE AIxVR 2026</a>.</li>
   <li><strong>[Oct 2025]</strong> I gave a demo on <a href="">Object Detection in Mixed Reality</a> at <a href="https://iccv.thecvf.com/virtual/2025/demonstration/2960">ICCV 2025</a>.</li>
   <li><strong>[2025]</strong> I will serve as Publicity Chair for <a href="https://aivr.science.uu.nl/2026/aixvr2026_oc.html">IEEE AIxVR 2026</a>.</li>
