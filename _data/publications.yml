@@ -1,7 +1,7 @@
 main:
 
   - title: "Augmented Reality Visual Retrieval for Object Detection and Corpus-Guided Content Generation"
-    authors: Alireza Taheritajar, Jeffrey Benson, Brandon Wilburn, Jieqiong Zhao, Jason Orlosky
+    authors: Alireza Taheritajar, Jieqiong Zhao, Jason Orlosky
     conference_short: AIxVR
     conference: 2026 IEEE International Conference on Artificial Intelligence and eXtended and Virtual Reality (AIxVR), Osaka, Japan
     # notes: Submitted
