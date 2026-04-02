@@ -6,7 +6,7 @@ main:
     conference: 2026 IEEE International Conference on Artificial Intelligence and eXtended and Virtual Reality (AIxVR), Osaka, Japan
     # notes: Submitted
     pdf: https://doi.org/10.1109/AIxVR67263.2026.00015
-    # video: https://youtu.be/qy2Ni9jySbQ?si=RJrTw3KitVnZsxFK
+    video: https://youtu.be/9v6jgj50tpk
     image: https://taheritajar.net/academic/assets/img/ARVRag.jpg
 
   - title: "Scalable Object Detection in Mixed Reality using Incremental Re-training and One-shot 3D Annotation"
