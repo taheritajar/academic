@@ -1,6 +1,7 @@
 <h2 style="margin: 60px 0 10px;">News</h2>
 
 <ul>
+  <li><strong>[Jun 2026]</strong> Presented a <a href="https://taheritajar.net/academic/assets/img/CVPR.jpg">live demo</a> of our paper at <a href="https://taheritajar.net/academic/assets/img/CVPR2.jpg">CVPR 2026 in Denver, Colorado</a>.</li>
   <li><strong>[Apr 2026]</strong> I received Augusta University’s 2026 <a href="https://taheritajar.net/academic/assets/img/GRD_AWARD.jpg">Award of Excellence in Research</a> in recognition of outstanding graduate research achievements.</li>
   <li><strong>[Mar 2026]</strong> I participated as a presenter in the poster session at the <a href="https://taheritajar.net/academic/assets/img/41th-GRD.jpg">41st Graduate Research Day</a> at Augusta University.</li>
   <li><strong>[Mar 2026]</strong> I was invited to serve as a panelist on the student panel for Graduate School recruitment fair at Augusta University.</li>
