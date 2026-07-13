@@ -4,6 +4,7 @@
 
 <h4 style="margin:0 10px 0;">Object Detection in Mixed Reality</h4>
 <ul style="margin:0 0 5px;">
+  <li><a href="https://www.youtube.com/watch?v=BPXCOEvMDNw&t=3s" target="_blank" rel="noopener noreferrer"><autocolor>OpenCV Weekly Webinar – Invited Presentation of Two Research Papers</autocolor></a></li>
   <li><a href="https://cvpr.thecvf.com/virtual/2026/demonstration/40403" target="_blank" rel="noopener noreferrer"><autocolor>(Demo) IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2026</autocolor></a></li>
   <li><a href="https://iccv.thecvf.com/virtual/2025/demonstration/2960" target="_blank" rel="noopener noreferrer"><autocolor>(Demo) International Conference on Computer Vision, ICCV 2025</autocolor></a></li>
   <li><a href="https://www.consortiumedr.org/cedr-midyear-info/2025-cedr-midyear" target="_blank" rel="noopener noreferrer"><autocolor>CEDR Conference, 2025</autocolor></a></li>
