@@ -5,12 +5,12 @@
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <meta name="description" content="{{ site.title }}">
+    <meta name="description" content="{{ page.description | default: site.description }}">
     <meta name="keywords" content="{{ site.keywords }}">
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ site.title }} | {{ site.affiliation }}">
-    <meta property="og:url" content="{{ site.canonical }}">
+    <meta property="og:url" content="{{ site.canonical }}{{ page.permalink }}">
     <meta property="og:site_name" content="{{ site.title }} | {{ site.affiliation }}">
     <meta property="og:description" content="{{ site.description }}">
     <meta property="og:locale" content="default">

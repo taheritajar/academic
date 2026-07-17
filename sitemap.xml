@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: /academic/sitemap.xml
+permalink: /sitemap.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
@@ -43,6 +43,13 @@ permalink: /academic/sitemap.xml
  <priority>1.0</priority>
  <lastmod>2025-11-01</lastmod>
  <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://taheritajar.net/academic/biography/</loc>
+ <priority>0.8</priority>
+ <lastmod>2025-11-01</lastmod>
+ <changefreq>monthly</changefreq>
 </url>
 
 </urlset>
