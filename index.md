@@ -1,6 +1,9 @@
 ---
 layout: homepage
 permalink: /
+redirect_from:
+  - /academic/
+  - /academic/index.html
 schema_type: ProfilePage
 ---
 

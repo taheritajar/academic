@@ -5,7 +5,6 @@
   <strong>{{ site.title }}</strong><br>
   {{ site.department }}, {{ site.affiliation }}<br>
   Georgia Cyber Center, Augusta, GA, USA<br>
-  Email: {{ site.email }}<br>
-  Website: <a href="{{ site.personal_site }}">taheritajar.net</a>
+  Email: {{ site.email }}
 </address>
 </section>

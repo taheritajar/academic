@@ -2,6 +2,7 @@
 layout: default
 title: Teaching
 permalink: /teaching/
+redirect_from: /academic/teaching/
 description: Teaching experience of Alireza Taheritajar as a teaching assistant for microprocessor design, logic circuits, signals and systems, and electronic circuits.
 ---
 

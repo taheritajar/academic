@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://taheritajar.net/academic/sitemap.xml
+Sitemap: https://taheritajar.net/sitemap.xml

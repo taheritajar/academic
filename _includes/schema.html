@@ -9,7 +9,7 @@
 {%- assign org_id = home_url | append: "#affiliation" -%}
 
 {%- assign same_as = "" | split: "" -%}
-{%- assign profile_keys = "personal_site,orcid,google_scholar,dblp,github_link,linkedin,twitter" | split: "," -%}
+{%- assign profile_keys = "orcid,google_scholar,dblp,github_link,linkedin,twitter" | split: "," -%}
 {%- for key in profile_keys -%}
   {%- if site[key] -%}{%- assign same_as = same_as | push: site[key] -%}{%- endif -%}
 {%- endfor -%}

@@ -2,6 +2,7 @@
 layout: default
 title: Biography
 permalink: /biography/
+redirect_from: /academic/biography/
 description: Biography of Alireza Taheritajar, PhD student at Augusta University's ARVR Lab working on intelligent mixed reality systems and human-AI interaction.
 schema_type: ProfilePage
 ---
@@ -28,4 +29,4 @@ schema_type: ProfilePage
 
 <p>He serves as Publicity Chair for IEEE AIxVR 2026 and 2027, has served on the Executive Board of Intercollegiate XR (ICXR), and reviews for IEEE ISMAR and IEEE AIxVR. At Augusta University he is Treasurer of the AI/ML Paper Reading Group and previously served as Vice President of the Computer and Cyber Graduate Student Organization. At Bu-Ali Sina University he headed the Entrepreneurship Committee and the Electrical &amp; Robotics Student Committee.</p>
 
-<p>More about his research and projects can be found on his <a href="https://taheritajar.net/">personal website</a>, <a href="{{ site.google_scholar }}">Google Scholar</a>, and <a href="{{ site.orcid }}">ORCID</a> profiles.</p>
+<p>More about his research and projects can be found on his <a href="{{ '/publications/' | relative_url }}">publications page</a> and his <a href="{{ site.google_scholar }}">Google Scholar</a>, <a href="{{ site.orcid }}">ORCID</a>, and <a href="{{ site.github_link }}">GitHub</a> profiles.</p>

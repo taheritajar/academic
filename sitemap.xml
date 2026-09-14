@@ -7,7 +7,7 @@ sitemap: false
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 {%- assign pages = site.pages | sort: "url" %}
 {%- for p in pages %}
-  {%- if p.sitemap == false or p.noindex %}{% continue %}{% endif %}
+  {%- if p.sitemap == false or p.noindex or p.redirect %}{% continue %}{% endif %}
   {%- assign last_segment = p.url | split: "/" | last %}
   {%- if last_segment contains "." %}{% unless last_segment contains ".html" %}{% continue %}{% endunless %}{% endif %}
   <url>

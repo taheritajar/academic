@@ -43,7 +43,7 @@
 <meta name="twitter:image" content="{{ seo_image }}">
 
 <!-- Identity links: tell crawlers these profiles belong to the same person -->
-{%- assign me_links = "personal_site,orcid,google_scholar,dblp,github_link,linkedin,twitter" | split: "," %}
+{%- assign me_links = "orcid,google_scholar,dblp,github_link,linkedin,twitter" | split: "," %}
 {%- for key in me_links %}{% if site[key] %}
 <link rel="me" href="{{ site[key] }}">
 {%- endif %}{% endfor %}

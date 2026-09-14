@@ -12,12 +12,15 @@ lab: ARVR Lab
 lab_link: https://www.jeoresearch.com/ccslab
 location: Augusta, Georgia, USA
 email: ataheritajar (at) augusta.edu
-personal_site: https://taheritajar.net/
+
+# Site address. The site is served from the root of the custom domain (see CNAME).
+url: https://taheritajar.net
+baseurl: ""
 
 # Search Engine Optimization (SEO)
 # `canonical` is the public URL of this site (no trailing slash). It is used for
 # canonical links, Open Graph, structured data and the sitemap.
-canonical: https://taheritajar.net/academic
+canonical: https://taheritajar.net
 description: Alireza Taheritajar is a PhD student at Augusta University researching intelligent mixed reality systems, real-time 3D perception, and human-AI interaction.
 
 # Images (paths relative to the site root)
@@ -68,6 +71,10 @@ person:
 # Footer
 enable_last_update: true
 
+# Old /academic/... URLs redirect here via `redirect_from` in each page.
+plugins:
+  - jekyll-redirect-from
+
 # Analytics
 # clustrmaps_id:
 
@@ -78,7 +85,6 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENSE
-  - CNAME
 
 defaults:
   - scope:

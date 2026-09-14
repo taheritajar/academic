@@ -4,4 +4,4 @@ I am a Ph.D. student in [Computer Science and Cyber Security](https://www.august
 
 I received my **M.Sc.** and **B.Sc.** degrees in **Electrical and Control Engineering** from [Bu-Ali Sina University](https://basu.ac.ir/en) in Hamedan, Iran, where I graduated as a top student. My master’s thesis focused on **vehicle counting and speed detection using computer vision**, and my undergraduate project involved designing a **camera robot** for real-time visual tracking.   
 
-My biography is [here](https://taheritajar.net/academic/biography/).
+My biography is [here](https://taheritajar.net/biography/).
