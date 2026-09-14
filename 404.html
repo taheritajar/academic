@@ -1,55 +1,18 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>404 Not Found</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+---
+layout: default
+title: Page Not Found
+permalink: /404.html
+noindex: true
+sitemap: false
+---
 
-        <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
-        <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
-        <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+<h1 class="page-title">Page not found</h1>
 
-        <link rel="stylesheet" href="./assets/css/style.css">
+<p>Sorry, the page you are looking for does not exist or has moved.</p>
 
-
-
-	</head>
-	<body class="is-preload">
-
-		<!-- Header -->
-		<header id="header">
-		</header>
-
-		<!-- Main -->
-			<div class="wrapper">
-
-                    <header>
-                    <center>
-                    <br>
-                    <h1><strong>404 Not Found</strong><br></h1>
-                    </center>
-                    </header>
-
-					<section>
-                        <br>
-						<h3>This is not the web page you are looking for.</h3>
-                        <br>
-
-						<h3>You'll be redirected to the homepage in 5 seconds.</h3>
-
-						<script language="javascript">
-						window.setTimeout("window.location.href='/'", 5000);
-						</script>
-                      </section>
-
-			</div>
-
-		<!-- Footer -->
-		<footer id="footer">
-		</footer>
-
-		<!-- Scripts -->
-        <script src="javascripts/scale.fix.js"></script>
-
-	</body>
-</html>
+<ul class="plain-list">
+  <li><a href="{{ '/' | relative_url }}">Home</a></li>
+  <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+  <li><a href="{{ '/talks/' | relative_url }}">Talks</a></li>
+  <li><a href="{{ '/biography/' | relative_url }}">Biography</a></li>
+</ul>

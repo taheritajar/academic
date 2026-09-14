@@ -1,163 +1,69 @@
-/* Add a black background color to the top navigation */
 .topnav {
-    background-color: #13294B;
-    overflow: hidden;
-	  position:fixed;
-	  z-index:999;
-    width:100%;
-  }
-
-
-  .topnav #myLinks {
-    display: inline;
-  }
-
-.topnav a.icon {
-    display: none;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--navy, #13294B);
+  font-family: var(--sans);
 }
 
-  .topnav img {
-    margin-bottom:0pt;
-    margin-top:10pt;
-    margin-left:30%;
+.topnav-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  min-height: var(--nav-height, 56px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.topnav .brand {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: 0.01em;
+}
+.topnav .brand:hover { color: #fff; text-decoration: none; opacity: 0.9; }
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 0.25rem;
+}
+.nav-links li { margin: 0; }
+.nav-links a {
+  display: block;
+  padding: 0.45rem 0.75rem;
+  color: #dfe6f0;
+  font-size: 0.98rem;
+  border-radius: 4px;
+}
+.nav-links a:hover { color: #fff; background: rgba(255, 255, 255, 0.12); text-decoration: none; }
+.nav-links a[aria-current="page"] { color: #fff; box-shadow: inset 0 -2px 0 #fff; border-radius: 0; }
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: 0;
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .topnav-inner { padding: 0 1rem; }
+  .nav-toggle { display: block; }
+  .nav-links {
+    display: none;
+    flex-basis: 100%;
+    flex-direction: column;
+    gap: 0;
+    padding: 0 0 0.75rem;
   }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a.normal {
-    float: right;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 10px 9px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a.normal:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.right {
-    margin-right:30%;
-  }
-
-  @media print, screen and (max-width: 1000px) { 
-
-    .topnav img {
-        margin-left:3%;
-      }
-
-    .topnav a.right {
-        margin-right:3%;
-      }
-
-    .topnav a.normal {
-        padding: 10px 5px;
-    }
-
-   }
-
-   @media print, screen and (max-width: 1200px) and (min-width: 1001px) { 
-
-    .topnav img {
-        margin-left:6%;
-      }
-    .topnav a.right {
-        margin-right:6%;
-      }
-
-   }
-
-   @media print, screen and (max-width: 1400px) and (min-width: 1201px) { 
-
-    .topnav img {
-        margin-left:12%;
-      }
-    .topnav a.right {
-        margin-right:12%;
-      }
-
-      }
-
-
-   @media print, screen and (max-width: 1600px) and (min-width: 1401px) { 
-
-    .topnav img {
-        margin-left:16%;
-      }
-    .topnav a.right {
-        margin-right:16%;
-      }
-
-   }
-
-   @media print, screen and (max-width: 1800px) and (min-width: 1601px) { 
-
-    .topnav img {
-        margin-left:19%;
-      }
-    .topnav a.right {
-        margin-right:19%;
-      }
-
-   }
-
-   @media print, screen and (max-width: 2000px) and (min-width: 1801px) { 
-
-    .topnav img {
-        margin-left:22%;
-      }
-    .topnav a.right {
-        margin-right:22%;
-      }
-
-   }
-
-  
-   @media print, screen and (max-width: 480px) { 
-    .topnav #myLinks {
-        display: none;
-      }
-   }
-
-   @media print, screen and (max-width: 960px) { 
-
-    .topnav #myLinks {
-        display: none;
-      }
-
-      .topnav a.normal {
-        color: white;
-        float: none;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-      }
-
-      .topnav a.icon {
-        color: white;
-        display: block;
-        padding: 10px 16px;
-        font-size: 17px;
-        position: absolute;
-        float: right;
-        right: 0;
-        top: 0;
-        margin-right:5%;
-      }
-
-      .topnav a.right {
-        color: white;
-        float: none;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-        margin-right:0;
-      }
-   }
-   
-
+  .nav-links.is-open { display: flex; }
+  .nav-links a { padding: 0.6rem 0.25rem; }
+  .nav-links a[aria-current="page"] { box-shadow: inset 3px 0 0 #fff; padding-left: 0.75rem; }
+}

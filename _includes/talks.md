@@ -1,79 +1,18 @@
-<h1 id="invited-talks"></h1>
+<h1 class="page-title">Talks &amp; Presentations</h1>
 
-<h2 style="margin: 60px 0px 10px;">Invited Talks</h2>
-
-<h4 style="margin:0 10px 0;">Object Detection in Mixed Reality</h4>
-<ul style="margin:0 0 5px;">
-  <li><a href="https://www.youtube.com/watch?v=BPXCOEvMDNw&t=3s" target="_blank" rel="noopener noreferrer"><autocolor>OpenCV Weekly Webinar – Invited Presentation of Two Research Papers</autocolor></a></li>
-  <li><a href="https://cvpr.thecvf.com/virtual/2026/demonstration/40403" target="_blank" rel="noopener noreferrer"><autocolor>(Demo) IEEE/CVF Conference on Computer Vision and Pattern Recognition, CVPR 2026</autocolor></a></li>
-  <li><a href="https://iccv.thecvf.com/virtual/2025/demonstration/2960" target="_blank" rel="noopener noreferrer"><autocolor>(Demo) International Conference on Computer Vision, ICCV 2025</autocolor></a></li>
-  <li><a href="https://www.consortiumedr.org/cedr-midyear-info/2025-cedr-midyear" target="_blank" rel="noopener noreferrer"><autocolor>CEDR Conference, 2025</autocolor></a></li>
-  <li><a href="https://cps.uga.edu/index.php/cps2025/" target="_blank" rel="noopener noreferrer"><autocolor>Cyber-Physical Systems Innovation Symposium, 2025</autocolor></a></li>
+<h2 class="subsection-title">Object Detection in Mixed Reality</h2>
+<ul class="plain-list">
+  <li><span class="label">Invited</span><a href="https://www.youtube.com/watch?v=BPXCOEvMDNw" rel="noopener">OpenCV Weekly Webinar</a> — presentation of two research papers, 2026</li>
+  <li><span class="label">Demo</span><a href="https://cvpr.thecvf.com/virtual/2026/demonstration/40403" rel="noopener">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)</a>, Denver, CO</li>
+  <li><span class="label">Demo</span><a href="https://iccv.thecvf.com/virtual/2025/demonstration/2960" rel="noopener">IEEE/CVF International Conference on Computer Vision (ICCV 2025)</a></li>
+  <li><span class="label">Invited</span><a href="https://www.consortiumedr.org/cedr-midyear-info/2025-cedr-midyear" rel="noopener">CEDR Midyear Conference 2025</a> — “Interactive Mixed Reality Object Detection for Education”</li>
+  <li><span class="label">Talk</span><a href="https://cps.uga.edu/index.php/cps2025/" rel="noopener">Cyber-Physical Systems Innovation Symposium 2025</a>, University of Georgia</li>
 </ul>
 
-<h4 style="margin:0 10px 0;">Acoustic Side Channel Attacks</h4>
-<ul style="margin:0 0 20px;">
-  <li><a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/index.html" target="_blank" rel="noopener noreferrer"><autocolor>CANS 2025, Osaka University</autocolor></a></li>
-  <li><a href="https://icics2024.aegean.gr/" target="_blank" rel="noopener noreferrer"><autocolor>International Conference on Information and Communications Security (ICICS 2024)</autocolor></a></li>
-  <li><a href="https://events.afcea.org/Augusta24/Public/SpeakerDetails.aspx?FromPage=Speakers.aspx&ContactID=167451" target="_blank" rel="noopener noreferrer"><autocolor>TechNet Augusta 2024</autocolor></a></li>
-  <li><a href="https://events.afcea.org/Augusta23/Public/Content.aspx?ID=100720" target="_blank" rel="noopener noreferrer"><autocolor>TechNet Augusta 2023</autocolor></a></li>
+<h2 class="subsection-title">Acoustic Side-Channel Attacks</h2>
+<ul class="plain-list">
+  <li><span class="label">Paper</span><a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/index.html" rel="noopener">International Conference on Cryptology and Network Security (CANS 2025)</a>, Osaka University</li>
+  <li><span class="label">Paper</span><a href="https://icics2024.aegean.gr/" rel="noopener">International Conference on Information and Communications Security (ICICS 2024)</a></li>
+  <li><span class="label">Invited</span><a href="https://events.afcea.org/Augusta24/Public/SpeakerDetails.aspx?FromPage=Speakers.aspx&amp;ContactID=167451" rel="noopener">TechNet Augusta 2024</a></li>
+  <li><span class="label">Poster</span><a href="https://events.afcea.org/Augusta23/Public/Content.aspx?ID=100720" rel="noopener">TechNet Augusta 2023</a></li>
 </ul>
-
-
-
-
-
-
-
-
-
-
-<!-- <h1 id="invited-talks"></h1>
-
-<h2 style="margin: 60px 0px 10px;">Invited Talks</h2>
-
-<h4 style="margin:0 10px 0;">Learning with 3D Generative Models.</h4>
-
-<ul style="margin:0 0 5px;">
-  <li>Guest Lecture for CSE 290D, UC Santa Cruz, October 2024.</li>
-  <li>Guest Lecture for EECS 542, University of Michigan, September 2024.</li>
-</ul>
-
-<h4 style="margin:0 10px 0;">Generating Images with 3D Annotations Using Diffusion Models.</h4>
-
-<ul style="margin:0 0 5px;">
-  <li>CVPR 2024 Area Chair Workshop, June 2024.</li>
-</ul>
-
-<h4 style="margin:0 10px 0;">Learning from Imperfect Data: Incremental Learning and Few-shot Learning.</h4>
-
-<ul style="margin:0 0 5px;">
-  <li><a href="https://bair.berkeley.edu/"><autocolor>Berkeley Artificial Intelligence Research Lab (BAIR), UC Berkeley, October 2023.</autocolor></a></li>
-  <li><a href="https://engineering.purdue.edu/ChanGroup/comp_imaging_seminar.html"><autocolor>Computational Imaging Seminar, Purdue University, August 2023.</autocolor></a></li>
-  <li><a href="https://sites.google.com/view/visionseminar"><autocolor>Vision and Graphics Seminar, Massachusetts Institute of Technology, April 2023.</autocolor></a></li>
-  <li><a href="https://calendars.illinois.edu/detail/2568?eventId=33456212"><autocolor>External Speaker Series, University of Illinois Urbana-Champaign, April 2023.</autocolor></a></li>
-  <li><a href="https://vigr.cs.columbia.edu/vigr_seminar.html"><autocolor>VIGR Seminar, Columbia University, March 2023.</autocolor></a></li>
-  <li><a href="https://ccvl.jhu.edu/"><autocolor>CCVL Lab, Johns Hopkins University, January 2023.</autocolor></a></li>
-  <li><a href="https://www.robots.ox.ac.uk/~vgg/"><autocolor>Visual Geometry Group (VGG), University of Oxford, November 2022.</autocolor></a></li>
-  <li><a href="https://fvl.fudan.edu.cn/"><autocolor>Fudan Vision and Learning Laboratory, Fudan University, September 2022.</autocolor></a></li>
-  <li><a href="https://www.nextcenter.org/"><autocolor>NExT++ Research Center, National University of Singapore, April 2022.</autocolor></a></li>
-  <li>Singapore Management University, September 2020.</li>
-</ul>
-
-<h4 style="margin:0 10px 0;">Meta-transfer Learning for Few-shot Learning.</h4>
-
-<ul style="margin:0 0 5px;">
-  <li>Guest Lecture for CS-625, École Polytechnique Fédérale de Lausanne, March 2023.</li>
-</ul>
-
-<h4 style="margin:0 10px 0;">Learning to Self-train for Semi-supervised Few-shot Classification.</h4>
-
-<ul style="margin:0 0 5px;">
-  <li>NeurIPS Official Meetups in Beijing, December 2019.</li>
-</ul>
-
-<h4 style="margin:0 10px 0;">Multi-class Incremental Learning.</h4>
-
-<ul style="margin:0 0 20px;">
-  <li>Nanyang Technological University, July 2019.</li>
-</ul> -->

@@ -2,16 +2,15 @@
 layout: default
 title: Teaching
 permalink: /teaching/
+description: Teaching experience of Alireza Taheritajar as a teaching assistant for microprocessor design, logic circuits, signals and systems, and electronic circuits.
 ---
 
-<h1 id="teaching"></h1>
+<h1 class="page-title">Teaching</h1>
 
-<h2 style="margin: 60px 0px -15px;">Teaching Assistant</h2>
-<br>
-
-<!-- - Spring 2025: [Concepts of Machine Learning](https://yaoyaoliu.web.illinois.edu/teaching/IS327/) (IS327) -->
-
-- Spring 2017: Teaching Assistant, Microprocessors Design
-- Fall 2017: Teaching Assistant, Logic Circuits Design
-- Spring 2016: Teaching Assistant, Signals and Systems
-- Fall 2016: Teaching Assistant, Electronic Circuits
+<h2 class="subsection-title">Teaching Assistant</h2>
+<ul class="dated-list">
+  <li><span class="date">Fall 2017</span><span>Logic Circuits Design</span></li>
+  <li><span class="date">Spring 2017</span><span>Microprocessors Design</span></li>
+  <li><span class="date">Fall 2016</span><span>Electronic Circuits</span></li>
+  <li><span class="date">Spring 2016</span><span>Signals and Systems</span></li>
+</ul>

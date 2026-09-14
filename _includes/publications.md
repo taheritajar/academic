@@ -1,59 +1,47 @@
-<h1 id="publications"></h1>
+<h1 class="page-title">Publications
+  <span class="page-title-links">[<a href="{{ site.google_scholar }}" rel="noopener">Google Scholar</a>] [<a href="{{ site.dblp }}" rel="noopener">DBLP</a>] [<a href="{{ site.orcid }}" rel="noopener">ORCID</a>]</span>
+</h1>
 
-<h2 style="margin: 60px 0px -15px;">Publications <temp style="font-size:15px;">[</temp><a href="https://scholar.google.com/citations?hl=en&user=SyK9A9EAAAAJ" target="_blank" style="font-size:15px;">Google Scholar</a><temp style="font-size:15px;">]</temp><temp style="font-size:15px;">[</temp><a href="https://dblp.org/pid/357/3521.html" target="_blank" style="font-size:15px;">DBLP</a><temp style="font-size:15px;">]</temp></h2>
-
-
-<div class="publications">
-<ol class="bibliography">
-
-{% for link in site.data.publications.main %}
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-            <abbr class="badge">{{ link.conference_short }}</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
-      </div>
-    <div class="links">
-      {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      {% endif %}
-      {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      {% endif %}
-      {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      {% endif %}
-      {% if link.data %} 
-      <a href="{{ link.data }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Dataset</a>
-      {% endif %}
-      {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      {% endif %}
-      {% if link.video %} 
-      <a href="{{ link.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
-      {% endif %}
-      {% if link.notes %} 
-      <strong> <i style="color:#e74d3c; font-weight:600">{{ link.notes }}</i></strong>
-      {% endif %}
-      {% if link.others %} 
-      {{ link.others }}
-      {% endif %}
+<ol class="publications">
+{%- for pub in site.data.publications.main %}
+  {%- if pub.doi %}{% assign pub_link = "https://doi.org/" | append: pub.doi %}{% else %}{% assign pub_link = pub.pdf | default: pub.arxiv %}{% endif %}
+  {%- assign author_list = pub.authors | split: ", " %}
+  <li class="pub">
+    <div class="pub-teaser">
+      {%- if pub.image %}
+      <img src="{{ pub.image | relative_url }}" alt="Figure from {{ pub.title | escape }}" width="200" height="115" loading="lazy" decoding="async">
+      {%- else %}
+      <div class="pub-teaser-empty" aria-hidden="true"><i class="fa-regular fa-file-lines"></i></div>
+      {%- endif %}
+      <span class="pub-venue">{{ pub.conference_short }}{% if pub.year %} {{ pub.year }}{% endif %}</span>
     </div>
-  </div>
-</div>
-</li>
-
-<br>
-
-{% endfor %}
-
+    <div class="pub-body">
+      <h2 class="pub-title">{% if pub_link %}<a href="{{ pub_link }}" rel="noopener">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</h2>
+      <p class="pub-authors">
+        {%- for author in author_list -%}
+          {%- if site.person.alternate_names contains author or author == site.title -%}
+            <span class="me">{{ author }}</span>
+          {%- else -%}
+            {{ author }}
+          {%- endif -%}
+          {%- unless forloop.last %}, {% endunless -%}
+        {%- endfor -%}
+        {%- if pub.et_al %}, et al.{% endif -%}
+      </p>
+      {%- assign pub_year = pub.year | append: "" %}
+      <p class="pub-journal">{{ pub.conference }}{% if pub.year %}{% unless pub.conference contains pub_year %}, {{ pub_year }}{% endunless %}{% endif %}</p>
+      <p class="pub-links">
+        {%- if pub.doi %}<a href="https://doi.org/{{ pub.doi }}" rel="noopener">DOI</a>{% endif %}
+        {%- if pub.pdf %}<a href="{{ pub.pdf }}" rel="noopener">PDF</a>{% endif %}
+        {%- if pub.arxiv %}<a href="{{ pub.arxiv }}" rel="noopener">arXiv</a>{% endif %}
+        {%- if pub.code %}<a href="{{ pub.code }}" rel="noopener">Code</a>{% endif %}
+        {%- if pub.page %}<a href="{{ pub.page }}" rel="noopener">Project Page</a>{% endif %}
+        {%- if pub.data %}<a href="{{ pub.data }}" rel="noopener">Dataset</a>{% endif %}
+        {%- if pub.bibtex %}<a href="{{ pub.bibtex }}" rel="noopener">BibTeX</a>{% endif %}
+        {%- if pub.video %}<a href="{{ pub.video }}" rel="noopener">Video</a>{% endif %}
+        {%- if pub.notes %}<span class="pub-note">{{ pub.notes }}</span>{% endif %}
+      </p>
+    </div>
+  </li>
+{%- endfor %}
 </ol>
-</div>
-
-

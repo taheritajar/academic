@@ -1,55 +1,23 @@
 ---
 layout: null
 permalink: /sitemap.xml
+sitemap: false
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
->
-
-<url>
- <loc>https://taheritajar.net/academic/</loc>
- <priority>1.0</priority>
- <lastmod>2025-11-01</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-
-<url>
- <loc>https://taheritajar.net/academic/publications/</loc>
- <priority>1.0</priority>
- <lastmod>2025-11-01</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-
-<url>
- <loc>https://taheritajar.net/academic/teaching/</loc>
- <priority>1.0</priority>
- <lastmod>2025-11-01</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-
-<url>
- <loc>https://taheritajar.net/academic/talks/</loc>
- <priority>1.0</priority>
- <lastmod>2025-11-01</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-
-<url>
- <loc>https://taheritajar.net/academic/services/</loc>
- <priority>1.0</priority>
- <lastmod>2025-11-01</lastmod>
- <changefreq>weekly</changefreq>
-</url>
-
-<url>
- <loc>https://taheritajar.net/academic/biography/</loc>
- <priority>0.8</priority>
- <lastmod>2025-11-01</lastmod>
- <changefreq>monthly</changefreq>
-</url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+{%- assign pages = site.pages | sort: "url" %}
+{%- for p in pages %}
+  {%- if p.sitemap == false or p.noindex %}{% continue %}{% endif %}
+  {%- assign last_segment = p.url | split: "/" | last %}
+  {%- if last_segment contains "." %}{% unless last_segment contains ".html" %}{% continue %}{% endunless %}{% endif %}
+  <url>
+    <loc>{{ site.canonical }}{{ p.url | replace: "/index.html", "/" }}</loc>
+    <lastmod>{{ p.last_modified_at | default: site.time | date_to_xmlschema }}</lastmod>
+    {%- if p.url == "/" %}
+    <image:image>
+      <image:loc>{{ site.canonical }}{{ site.avatar }}</image:loc>
+    </image:image>
+    {%- endif %}
+  </url>
+{%- endfor %}
 </urlset>

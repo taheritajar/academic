@@ -1,11 +1,11 @@
-<h2 style="margin: 60px 0px 10px;">Contact</h2>
+<section id="contact" aria-labelledby="contact-title">
+<h2 id="contact-title" class="section-title">Contact</h2>
 
-Alireza Taheritajar
-<br />
-Georgia, USA
-<!-- <br />
-Email: <a href="mailto:ataheritajar@augusta.edu">ataheritajar@augusta.edu</a> -->
-<br />
-Website: <a href="https://taheritajar.net" target="_blank">taheritajar.net</a>
-<!-- <br /> -->
-<!-- Phone: <a href="tel:+17063945443">+1 (706) 394-5443</a> -->
+<address>
+  <strong>{{ site.title }}</strong><br>
+  {{ site.department }}, {{ site.affiliation }}<br>
+  Georgia Cyber Center, Augusta, GA, USA<br>
+  Email: {{ site.email }}<br>
+  Website: <a href="{{ site.personal_site }}">taheritajar.net</a>
+</address>
+</section>

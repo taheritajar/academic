@@ -1,20 +1,18 @@
 main:
-
-  - title: "Teaching"
-    url: teaching/
-    right: true 
-
-  - title: "Services"
-    url: services/
-
-  - title: "Talks"
-    url: talks/
-
-  #- title: "Teaching"
-  #  url: ./teaching.html
+  - title: "Home"
+    url: /
 
   - title: "Publications"
-    url: publications/
+    url: /publications/
 
-  - title: "Home"
-    url: ./
+  - title: "Talks"
+    url: /talks/
+
+  - title: "Services"
+    url: /services/
+
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "Biography"
+    url: /biography/

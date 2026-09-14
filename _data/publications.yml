@@ -1,78 +1,74 @@
+# Fields
+#   title, authors (comma-separated "First Last" names), venue_short, conference, year
+#   doi (without https://doi.org/), pdf, arxiv, code, page, data, bibtex, video
+#   image (path under the site root), et_al (true to append "et al."), notes
+# Your own name is highlighted automatically when it matches `title` or
+# `person.alternate_names` in _config.yml.
+
 main:
 
   - title: "Augmented Reality Visual Retrieval for Object Detection and Corpus-Guided Content Generation"
     authors: Alireza Taheritajar, Jieqiong Zhao, Jason Orlosky
     conference_short: AIxVR
     conference: 2026 IEEE International Conference on Artificial Intelligence and eXtended and Virtual Reality (AIxVR), Osaka, Japan
-    # notes: Submitted
-    pdf: https://doi.org/10.1109/AIxVR67263.2026.00015
+    year: 2026
+    doi: 10.1109/AIxVR67263.2026.00015
     video: https://youtu.be/9v6jgj50tpk
-    image: https://taheritajar.net/academic/assets/img/ARVRag.jpg
+    image: /assets/img/ARVRag.jpg
 
   - title: "Scalable Object Detection in Mixed Reality using Incremental Re-training and One-shot 3D Annotation"
     authors: Alireza Taheritajar, Jeffrey Benson, Brandon Wilburn, Jieqiong Zhao, Jason Orlosky
     conference_short: ISMAR
     conference: 2025 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)
-    # notes: Submitted
+    year: 2025
+    doi: 10.1109/ISMAR67309.2025.00040
     pdf: https://drive.google.com/file/d/1_nIPxSEX3L4jaAVj1wSdFiRWBrcriDhs/view?usp=sharing
-    video: https://youtu.be/qy2Ni9jySbQ?si=RJrTw3KitVnZsxFK
-    image: https://taheritajar.net/academic/assets/img/scalable.jpg
+    video: https://youtu.be/qy2Ni9jySbQ
+    image: /assets/img/scalable.jpg
 
   - title: "Acoustic Side Channel Attack on Keyboards Based on Typing Patterns"
     authors: Alireza Taheritajar, Reza Rahaeimehr
     conference_short: CANS
-    conference:  24th International Conference on Cryptology and Network Security (CANS 2025)
-    # notes: Submitted
-    pdf: https://arxiv.org/abs/2403.08740
-    # bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:FRi-qnK8OUYJ:scholar.google.com/&output=citation&scisdr=ChUFjFVGENDZi458rVE:ABGrvjIAAAAAaQZ6tVGQpH3Q0mYA1xlQ2XFlp6w&scisig=ABGrvjIAAAAAaQZ6tXqEoYVKRJQgzw3L93GJKAE&scisf=4&ct=citation&cd=-1&hl=en
-    image: https://taheritajar.net/academic/assets/img/Keyboards.png
+    conference: 24th International Conference on Cryptology and Network Security (CANS 2025)
+    year: 2025
+    doi: 10.1007/978-981-95-4434-9_26
+    arxiv: https://arxiv.org/abs/2403.08740
+    image: /assets/img/Keyboards.png
 
   - title: "A Survey on Acoustic Side Channel Attacks on Keyboards"
-    authors: Taheritajar, A., Harris, Z.M., Rahaeimehr, R.
+    authors: Alireza Taheritajar, Z. M. Harris, Reza Rahaeimehr
     conference_short: ICICS
-    conference: International Conference on Information and Communications Security (ICICS), 2024
-    pdf: https://link.springer.com/chapter/10.1007/978-981-97-8798-2_6
-    # bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:xNFmlENqSPEJ:scholar.google.com/&output=citation&scisdr=ChUFjFVGENDZi458iL0:ABGrvjIAAAAAaQZ6kL3jHdIaimT7d-1o80f4occ&scisig=ABGrvjIAAAAAaQZ6kNXIuuSMhk_sI0rjwyd_DoY&scisf=4&ct=citation&cd=-1&hl=en
-    image: https://taheritajar.net/academic/assets/img/survey.png
+    conference: International Conference on Information and Communications Security (ICICS 2024)
+    year: 2024
+    doi: 10.1007/978-981-97-8798-2_6
+    image: /assets/img/survey.png
 
   - title: "A lightweight Tiny-YOLOv3 vehicle detection approach"
-    authors: Taheri Tajar, A., Ramazani, A., Mansoorizadeh, M.
+    authors: Alireza Taheri Tajar, A. Ramazani, M. Mansoorizadeh
     conference_short: JRTIP
-    conference: Journal of Real-Time Image Processing, 2021
-    code: https://github.com/taheritajar/A-lightweight-Tiny-YOLOv3-vehicle-detection-approach.git
-    pdf: https://link.springer.com/article/10.1007/s11554-021-01131-w
-    # bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:TJKEhDkRp74J:scholar.google.com/&output=citation&scisdr=ChUFjFVGENDZi458cJU:ABGrvjIAAAAAaQZ6aJX8W1sGLSpAxIoYVmf4TZE&scisig=ABGrvjIAAAAAaQZ6aFv9YCSDSIVZZ338fXM4Ufw&scisf=4&ct=citation&cd=-1&hl=en
-    image: https://taheritajar.net/academic/assets/img/A_lightweight.jpg
-
+    conference: Journal of Real-Time Image Processing
+    year: 2021
+    doi: 10.1007/s11554-021-01131-w
+    code: https://github.com/taheritajar/A-lightweight-Tiny-YOLOv3-vehicle-detection-approach
+    image: /assets/img/A_lightweight.jpg
 
   - title: "Automatic image description with attention mechanism"
-    authors: Heidari, E., Abdolmaleki, M., Taheri Tajar, A., et al.
+    authors: E. Heidari, M. Abdolmaleki, Alireza Taheri Tajar
+    et_al: true
     conference_short: NCCITAI
-    conference: 4th National Conference on Computer, Information Technology and Applications of Artificial Intelligence (In Persian)
+    conference: 4th National Conference on Computer, Information Technology and Applications of Artificial Intelligence (in Persian)
     pdf: https://en.civilica.com/doc/1238759/
-    image: https://taheritajar.net/academic/assets/img/no_image.jpg
 
   # - title: "Large Language Model-Powered Virtual Assistants for In-situ Secondary Language Acquisition"
   #   authors: Jeffrey Benson, Austin Coleman, Brandon Britt, Alireza Taheritajar, Jason Orlosky
   #   conference_short: In-Progress
   #   conference: In progress
   #   notes: In progress
-  #   image: https://taheritajar.net/academic/assets/img/no_image.jpg
+  #   image: /assets/img/no_image.jpg
 
   # - title: "A Comparison of Empathy and Gaze Behavior in 2D vs 3D Immersive Training for Hospice Care"
   #   authors: Lynsey Steinberg, Alireza Taheritajar, Jason Orlosky, Genieve Lucas
   #   conference_short: In-Progress
   #   conference: In progress
   #   notes: In progress
-  #   image: https://taheritajar.net/academic/assets/img/no_image.jpg
-
-  # - title: "ImageNet3D: Towards General-Purpose Object-Level 3D Understanding"
-  #   authors: Wufei Ma, Guofeng Zhang, Qihao Liu, Guanning Zeng, Adam Kortylewski, <strong>Yaoyao Liu</strong>, Alan Yuille
-  #   conference_short: NeurIPS
-  #   conference: NeurIPS 2024 Datasets and Benchmarks Track.
-  #   pdf: https://yaoyaoliu.web.illinois.edu/papers/ImageNet3D_Towards_General_Purpose_Object_Level_3D_Understanding.pdf
-  #   bibtex: https://dblp.org/rec/journals/corr/abs-2406-09613.html?view=bibtex
-  #   data: https://github.com/wufeim/imagenet3d
-  #   page: https://imagenet3d.github.io/
-  #   image: https://img.yliu.me/teaser/imagenet3d.png
-
+  #   image: /assets/img/no_image.jpg

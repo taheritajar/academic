@@ -1,0 +1,150 @@
+{%- comment -%}
+  schema.org structured data (JSON-LD). The Person node is identical on every
+  page and has a stable @id, so Google can consolidate everything it learns
+  about the person into one Knowledge Graph entity.
+{%- endcomment -%}
+{%- assign home_url = site.canonical | append: "/" -%}
+{%- assign person_id = home_url | append: "#person" -%}
+{%- assign page_url = site.canonical | append: page.url | replace: "/index.html", "/" -%}
+{%- assign org_id = home_url | append: "#affiliation" -%}
+
+{%- assign same_as = "" | split: "" -%}
+{%- assign profile_keys = "personal_site,orcid,google_scholar,dblp,github_link,linkedin,twitter" | split: "," -%}
+{%- for key in profile_keys -%}
+  {%- if site[key] -%}{%- assign same_as = same_as | push: site[key] -%}{%- endif -%}
+{%- endfor -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": {{ person_id | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "givenName": {{ site.person.given_name | jsonify }},
+      "familyName": {{ site.person.family_name | jsonify }},
+      "alternateName": {{ site.person.alternate_names | jsonify }},
+      "url": {{ home_url | jsonify }},
+      "image": {
+        "@type": "ImageObject",
+        "url": {{ site.canonical | append: site.avatar | jsonify }},
+        "width": 800,
+        "height": 800
+      },
+      "description": {{ site.description | jsonify }},
+      "jobTitle": {{ site.job_title | jsonify }},
+      "worksFor": { "@id": {{ org_id | jsonify }} },
+      "affiliation": [
+        {
+          "@type": "CollegeOrUniversity",
+          "@id": {{ org_id | jsonify }},
+          "name": {{ site.affiliation | jsonify }},
+          "url": {{ site.affiliation_link | jsonify }},
+          "sameAs": {{ site.person.affiliation_sameas | jsonify }}
+        },
+        {
+          "@type": "ResearchOrganization",
+          "name": {{ site.lab | append: ", " | append: site.affiliation | jsonify }},
+          "url": {{ site.lab_link | jsonify }},
+          "parentOrganization": { "@id": {{ org_id | jsonify }} }
+        }
+      ],
+      "alumniOf": [
+        {%- for school in site.person.alumni_of %}
+        {
+          "@type": "CollegeOrUniversity",
+          "name": {{ school.name | jsonify }},
+          "url": {{ school.url | jsonify }}{% if school.sameas %},
+          "sameAs": {{ school.sameas | jsonify }}{% endif %}
+        }{% unless forloop.last %},{% endunless %}
+        {%- endfor %}
+      ],
+      "workLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Augusta",
+          "addressRegion": "GA",
+          "addressCountry": "US"
+        }
+      },
+      "knowsAbout": {{ site.person.knows_about | jsonify }},
+      "award": {{ site.person.awards | jsonify }},
+      {%- if site.orcid %}
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "ORCID",
+        "value": {{ site.orcid | split: "orcid.org/" | last | jsonify }}
+      },
+      {%- endif %}
+      "sameAs": {{ same_as | jsonify }}
+    },
+    {%- if page.schema_type == "ProfilePage" %}
+    {
+      "@type": "ProfilePage",
+      "@id": {{ page_url | append: "#webpage" | jsonify }},
+      "url": {{ page_url | jsonify }},
+      "name": {{ page.title | default: site.title | jsonify }},
+      "description": {{ page.description | default: site.description | jsonify }},
+      "inLanguage": {{ site.lang | default: "en-US" | jsonify }},
+      "dateModified": {{ site.time | date_to_xmlschema | jsonify }},
+      "mainEntity": { "@id": {{ person_id | jsonify }} },
+      "primaryImageOfPage": {{ site.canonical | append: site.avatar | jsonify }}
+    }
+    {%- else %}
+    {
+      "@type": "{{ page.schema_type | default: 'WebPage' }}",
+      "@id": {{ page_url | append: "#webpage" | jsonify }},
+      "url": {{ page_url | jsonify }},
+      "name": {{ page.title | append: " | " | append: site.title | jsonify }},
+      "description": {{ page.description | default: site.description | jsonify }},
+      "inLanguage": {{ site.lang | default: "en-US" | jsonify }},
+      "dateModified": {{ site.time | date_to_xmlschema | jsonify }},
+      "about": { "@id": {{ person_id | jsonify }} },
+      "author": { "@id": {{ person_id | jsonify }} },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": {{ site.title | jsonify }}, "item": {{ home_url | jsonify }} },
+          { "@type": "ListItem", "position": 2, "name": {{ page.title | jsonify }}, "item": {{ page_url | jsonify }} }
+        ]
+      }
+    }
+    {%- endif %}
+    {%- if page.schema_publications %},
+    {
+      "@type": "ItemList",
+      "@id": {{ page_url | append: "#publications" | jsonify }},
+      "name": {{ "Publications by " | append: site.title | jsonify }},
+      "itemListElement": [
+        {%- for pub in site.data.publications.main %}
+        {%- assign pub_authors = pub.authors | split: ", " %}
+        {%- if pub.doi %}{% assign pub_link = "https://doi.org/" | append: pub.doi %}{% else %}{% assign pub_link = pub.pdf %}{% endif %}
+        {
+          "@type": "ListItem",
+          "position": {{ forloop.index }},
+          "item": {
+            "@type": "ScholarlyArticle",
+            "headline": {{ pub.title | jsonify }},
+            "author": [
+              {%- for author in pub_authors %}
+              {% if site.person.alternate_names contains author or author == site.title %}{ "@id": {{ person_id | jsonify }} }{% else %}{ "@type": "Person", "name": {{ author | jsonify }} }{% endif %}{% unless forloop.last %},{% endunless %}
+              {%- endfor %}
+            ],
+            {%- if pub.year %}
+            "datePublished": "{{ pub.year }}",
+            {%- endif %}
+            {%- if pub.doi %}
+            "identifier": { "@type": "PropertyValue", "propertyID": "DOI", "value": {{ pub.doi | jsonify }} },
+            {%- endif %}
+            "url": {{ pub_link | jsonify }}
+          }
+        }{% unless forloop.last %},{% endunless %}
+        {%- endfor %}
+      ]
+    }
+    {%- endif %}
+  ]
+}
+</script>

@@ -1,40 +1,70 @@
-# Basic Information 
+# Basic Information
 title: Alireza Taheritajar
+lang: en-US
+locale: en_US
 position: PhD Student
+job_title: PhD Student and Graduate Research Assistant
 affiliation: Augusta University
-affiliation_link: https://taheritajar.net/
-affiliation_logo: ./assets/favicon_io/favicon-32x32.png
+affiliation_link: https://www.augusta.edu/
+department: School of Computer and Cyber Sciences
+department_link: https://www.augusta.edu/ccs/
+lab: ARVR Lab
+lab_link: https://www.jeoresearch.com/ccslab
+location: Augusta, Georgia, USA
 email: ataheritajar (at) augusta.edu
+personal_site: https://taheritajar.net/
 
 # Search Engine Optimization (SEO)
-keywords: alireza taheritajar, taheritajar, augusta university
+# `canonical` is the public URL of this site (no trailing slash). It is used for
+# canonical links, Open Graph, structured data and the sitemap.
 canonical: https://taheritajar.net/academic
-description: Alireza Taheritajar is a PhD student at Augusta University. His research lies in the intersection of computer vision, artificial intelligence, and mixed reality.
+description: Alireza Taheritajar is a PhD student at Augusta University researching computer vision, artificial intelligence, and mixed reality for real-time 3D object understanding.
 
-# The option is used to enable the Illinois template.
-enable_hopkins_logo: true
+# Images (paths relative to the site root)
+avatar: /assets/img/profile.jpg
+avatar_small: /assets/img/profile-400.jpg
+social_image: /assets/img/profile-og.jpg
 
-# The option is used to show the last update time.
-enable_last_update: true
-
-# Links
-link_type: icon #text/icon
-google_scholar: https://scholar.google.com/citations?hl=en&user=SyK9A9EAAAAJ
+# Profile links. Shown in the sidebar and used as schema.org `sameAs`,
+# which is what Google uses to connect this site to your other profiles.
+google_scholar: https://scholar.google.com/citations?user=SyK9A9EAAAAJ
+orcid: https://orcid.org/0009-0002-5642-6329
+dblp: https://dblp.org/pid/357/3521.html
 github_link: https://github.com/taheritajar
 linkedin: https://www.linkedin.com/in/alireza-taheri/
-twitter: https://twitter.com/alireza__tht/
+twitter: https://x.com/alireza__tht
+twitter_handle: alireza__tht
+# cv_link: https://taheritajar.net/path/to/cv.pdf
 
-# Images 
-avatar: https://taheritajar.net/academic/avatar.png
+# Structured data for the Google Knowledge Graph (schema.org Person)
+person:
+  given_name: Alireza
+  family_name: Taheritajar
+  alternate_names:
+    - Alireza Taheri Tajar
+    - A. Taheritajar
+  knows_about:
+    - Computer Vision
+    - Mixed Reality
+    - Augmented Reality
+    - Artificial Intelligence
+    - Object Detection
+    - Incremental Learning
+    - 3D Object Understanding
+    - Robotics
+  affiliation_sameas: https://en.wikipedia.org/wiki/Augusta_University
+  alumni_of:
+    - name: Bu-Ali Sina University
+      url: https://basu.ac.ir/en
+      sameas: https://en.wikipedia.org/wiki/Bu-Ali_Sina_University
+  awards:
+    - Award of Excellence in Research, Augusta University (2026)
 
-# Footnotes
-footnote: Copyright © 2024 Alireza Taheritajar. All rights reserved.
-footnote_link: https://github.com/taheritajar
+# Footer
+enable_last_update: true
 
 # Analytics
-# Please remove the following lines about analytics services if you fork my project. 
-# Otherwise, the analytics information of your website will be recorded to my ClustrMaps accounts.
-# clustrmaps_id: HV0rAUdAxpfEQLOsVs0FcJTR2rKVI5sEQUZIDM-N_HY
+# clustrmaps_id:
 
 # The following files will be removed from the generated website.
 exclude:
@@ -45,12 +75,8 @@ exclude:
   - LICENSE
   - CNAME
 
-include:
-  - sitemap.xml
-
 defaults:
   - scope:
-      path: "sitemap.xml"
+      path: ""
     values:
-      sitemap: false
-
+      sitemap: true

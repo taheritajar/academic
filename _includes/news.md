@@ -1,32 +1,30 @@
-<h2 style="margin: 60px 0 10px;">News</h2>
+<section id="news" aria-labelledby="news-title">
+<h2 id="news-title" class="section-title">News</h2>
 
-<ul>
-  <li><strong>[Jul 2026]</strong> Invited to present two of my research papers at the <a href="https://www.youtube.com/watch?v=BPXCOEvMDNw&t=3s">OpenCV Weekly Webinar</a>.</li>
-  <li><strong>[Jun 2026]</strong> Presented a <a href="https://taheritajar.net/academic/assets/img/CVPR.jpg">live demo</a> of our paper at <a href="https://taheritajar.net/academic/assets/img/CVPR2.jpg">CVPR 2026 in Denver, Colorado</a>.</li>
-  <li><strong>[Apr 2026]</strong> I received Augusta University’s 2026 <a href="https://taheritajar.net/academic/assets/img/GRD_AWARD.jpg">Award of Excellence in Research</a> in recognition of outstanding graduate research achievements.</li>
-  <li><strong>[Mar 2026]</strong> I participated as a presenter in the poster session at the <a href="https://taheritajar.net/academic/assets/img/41th-GRD.jpg">41st Graduate Research Day</a> at Augusta University.</li>
-  <li><strong>[Mar 2026]</strong> I was invited to serve as a panelist on the student panel for Graduate School recruitment fair at Augusta University.</li>
-  <li><strong>[Nov 2025]</strong> Our paper about <a href="https://doi.org/10.1109/AIxVR67263.2026.00015">Using Visual RAG in Mixed Reality for Object Detection</a> was accepted to <a href="https://aivr.science.uu.nl/2026/">IEEE AIxVR 2026</a>.</li>
-  <li><strong>[Oct 2025]</strong> I gave a demo on <a href="">Object Detection in Mixed Reality</a> at <a href="https://iccv.thecvf.com/virtual/2025/demonstration/2960">ICCV 2025</a>.</li>
-  <li><strong>[2025]</strong> I will serve as Publicity Chair for <a href="https://aivr.science.uu.nl/2026/aixvr2026_oc.html">IEEE AIxVR 2026</a>.</li>
-  <li><strong>[2025]</strong> Our paper about <a href="https://doi.org/10.1109/ISMAR67309.2025.00040">Object Detection in Mixed Reality</a> was accepted to <a href="https://www.ieeeismar.net/2025/program/papers/">ISMAR 2025</a>. <a href="https://youtu.be/qy2Ni9jySbQ?si=RJrTw3KitVnZsxFK">[Video]</a>.</li>
-  <li><strong>[2025]</strong> I will serve as a member of the Executive Board at <a href="https://www.icxr.org/">ICXR</a>.</li>
-  <li><strong>[2025]</strong> Our paper about <a href="https://doi.org/10.1007/978-981-95-4434-9_26">Acoustic Side Channel Attacks on Keyboards</a> was accepted to <a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/index.html">CANS 2025</a>.</li>
-  <li><strong>[2025]</strong> I gave an invited talk about "Interactive Mixed Reality Object Detection for Education" at <a href="https://www.consortiumedr.org/cedr-midyear-info/2025-midyear-registration">CEDR 2025</a>.</li>
-  <li><strong>[2025]</strong> I gave a talk about "Object Detection in Mixed Reality" at <a href="https://cps.uga.edu/index.php/cps2025/">Cyber-Physical Systems Innovation Symposium 2025</a>.</li>
-  <li><strong>[2024]</strong> I presented Our survey paper about <a href="https://link.springer.com/chapter/10.1007/978-981-97-8798-2_6">Acoustic Side Channel Attacks</a> at <a href="https://icics2024.aegean.gr/">ICICS 2024</a>.</li>
-  <li><strong>[2024]</strong> Our survey about "Acoustic Side Channel Attacks on Keyboards" was published at <a href="https://link.springer.com/chapter/10.1007/978-981-97-8798-2_6">ICICS 2024</a>.</li>
-  <li><strong>[2024]</strong> I gave an invited talk on "Acoustic Side Channel Attacks" at <a href="https://events.afcea.org/Augusta24/Public/SpeakerDetails.aspx?FromPage=Speakers.aspx&ContactID=167451">TechNet Augusta 2024</a>.</li>
-  <li><strong>[2024]</strong> I served as Vice President of the Computer & Cyber Graduate Student Organization at Augusta University.</li>
-  <li><strong>[2023]</strong> I presented my poster on "Acoustic Side Channel Attacks" at <a href="https://events.afcea.org/Augusta23/Public/Content.aspx?ID=100720">TechNet Augusta 2023</a>.</li>
-  <li><strong>[2021]</strong> Our paper "A lightweight Tiny-YOLOv3 vehicle detection approach" was published in the <a href="https://link.springer.com/article/10.1007/s11554-021-01131-w">Journal of Real-Time Image Processing</a>.</li>
+<ul class="dated-list">
+  <li><span class="date">Jul 2026</span><span>Invited to present two of my research papers at the <a href="https://www.youtube.com/watch?v=BPXCOEvMDNw">OpenCV Weekly Webinar</a>.</span></li>
+  <li><span class="date">Jun 2026</span><span>Presented a <a href="{{ '/assets/img/CVPR.jpg' | relative_url }}">live demo</a> of our work at <a href="https://cvpr.thecvf.com/virtual/2026/demonstration/40403">CVPR 2026</a> in Denver, Colorado (<a href="{{ '/assets/img/CVPR2.jpg' | relative_url }}">photo</a>).</span></li>
+  <li><span class="date">Apr 2026</span><span>Received Augusta University’s 2026 <a href="{{ '/assets/img/GRD_AWARD.jpg' | relative_url }}">Award of Excellence in Research</a> in recognition of outstanding graduate research.</span></li>
+  <li><span class="date">Mar 2026</span><span>Presented a poster at the <a href="{{ '/assets/img/41th-GRD.jpg' | relative_url }}">41st Graduate Research Day</a> at Augusta University.</span></li>
+  <li><span class="date">Mar 2026</span><span>Served as a panelist on the student panel for the Graduate School recruitment fair at Augusta University.</span></li>
+  <li><span class="date">Nov 2025</span><span>Our paper on <a href="https://doi.org/10.1109/AIxVR67263.2026.00015">visual retrieval-augmented generation in mixed reality for object detection</a> was accepted to <a href="https://aivr.science.uu.nl/2026/">IEEE AIxVR 2026</a>.</span></li>
+  <li><span class="date">Oct 2025</span><span>Presented a demo on <a href="https://iccv.thecvf.com/virtual/2025/demonstration/2960">object detection in mixed reality</a> at ICCV 2025.</span></li>
+  <li><span class="date">2025</span><span>Serving as Publicity Chair for <a href="https://aivr.science.uu.nl/2026/aixvr2026_oc.html">IEEE AIxVR 2026</a>.</span></li>
 </ul>
 
-<!-- <details>
-  <summary style="margin-top:10px; cursor:pointer;">Older news — click to expand</summary>
-  <ul style="margin-top:10px;">
-    <li><strong>[2024]</strong> Talks on 3D generative models (CVPR 2024 Area Chair Workshop) and guest lectures at UMich / UC Santa Cruz.</li>
-    <li><strong>[2024]</strong> Two 3D papers accepted to NeurIPS 2024 (Datasets & Benchmarks track).</li>
-    <li><strong>[2023]</strong> ECCV 2024 acceptance: robust class-incremental learning paper; served as Website Chair for BMVC 2023; various invited talks and mentoring roles.</li>
-  </ul>
-</details> -->
+<details class="more">
+<summary>Earlier news</summary>
+<ul class="dated-list">
+  <li><span class="date">2025</span><span>Our paper on <a href="https://doi.org/10.1109/ISMAR67309.2025.00040">scalable object detection in mixed reality</a> was accepted to <a href="https://www.ieeeismar.net/2025/program/papers/">IEEE ISMAR 2025</a> (<a href="https://youtu.be/qy2Ni9jySbQ">video</a>).</span></li>
+  <li><span class="date">2025</span><span>Joined the Executive Board of <a href="https://www.icxr.org/">ICXR</a>.</span></li>
+  <li><span class="date">2025</span><span>Our paper on <a href="https://doi.org/10.1007/978-981-95-4434-9_26">acoustic side-channel attacks on keyboards</a> was accepted to <a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/index.html">CANS 2025</a>.</span></li>
+  <li><span class="date">2025</span><span>Invited talk, “Interactive Mixed Reality Object Detection for Education,” at <a href="https://www.consortiumedr.org/cedr-midyear-info/2025-midyear-registration">CEDR 2025</a>.</span></li>
+  <li><span class="date">2025</span><span>Talk, “Object Detection in Mixed Reality,” at the <a href="https://cps.uga.edu/index.php/cps2025/">Cyber-Physical Systems Innovation Symposium 2025</a>.</span></li>
+  <li><span class="date">2024</span><span>Our survey on <a href="https://doi.org/10.1007/978-981-97-8798-2_6">acoustic side-channel attacks on keyboards</a> was published and presented at <a href="https://icics2024.aegean.gr/">ICICS 2024</a>.</span></li>
+  <li><span class="date">2024</span><span>Invited talk on acoustic side-channel attacks at <a href="https://events.afcea.org/Augusta24/Public/SpeakerDetails.aspx?FromPage=Speakers.aspx&amp;ContactID=167451">TechNet Augusta 2024</a>.</span></li>
+  <li><span class="date">2024</span><span>Served as Vice President of the Computer &amp; Cyber Graduate Student Organization at Augusta University.</span></li>
+  <li><span class="date">2023</span><span>Presented a poster on acoustic side-channel attacks at <a href="https://events.afcea.org/Augusta23/Public/Content.aspx?ID=100720">TechNet Augusta 2023</a>.</span></li>
+  <li><span class="date">2021</span><span>Our paper “A lightweight Tiny-YOLOv3 vehicle detection approach” was published in the <a href="https://doi.org/10.1007/s11554-021-01131-w">Journal of Real-Time Image Processing</a>.</span></li>
+</ul>
+</details>
+</section>
