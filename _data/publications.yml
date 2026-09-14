@@ -14,6 +14,7 @@ main:
     year: 2026
     doi: 10.1109/AIxVR67263.2026.00015
     video: https://youtu.be/9v6jgj50tpk
+    award: Best Paper Nominee
     image: /assets/img/ARVRag.jpg
 
   - title: "Scalable Object Detection in Mixed Reality using Incremental Re-training and One-shot 3D Annotation"

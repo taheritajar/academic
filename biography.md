@@ -16,7 +16,7 @@ schema_type: ProfilePage
 
 <h2 class="subsection-title">Industry Experience</h2>
 
-<p>From 2021 to 2023, he was a <strong>Machine Learning Engineer and Technical Lead</strong> at <a href="https://aiex.ca/">AIEX</a> in Montreal, Canada, where he managed a team of engineers building a no-code computer vision platform for dataset generation, model training, and edge deployment. He directed visual inspection deployments using YOLO and Mask R-CNN pipelines across more than ten industrial sites.</p>
+<p>From 2021 to 2023, he was a <strong>Machine Learning Engineer and Technical Lead</strong> at <a href="https://www.linkedin.com/company/aiex-ai">AIEX</a> in Montreal, Canada, where he managed a team of engineers building a no-code computer vision platform for dataset generation, model training, and edge deployment. He directed visual inspection deployments using YOLO and Mask R-CNN pipelines across several industrial sites.</p>
 
 <p>Earlier, he worked on <strong>intelligent transportation systems</strong> and <strong>industrial automation</strong> in Hamedan, Iran. As Technical Manager at Sina ATI NET (2017–2020), he led the design and deployment of vehicle detection systems based on inductive loops and wireless magnetic sensors for highway monitoring. He co-founded Atitek Faradid Pars (2015–2017), an industrial automation robotics company, and worked as a robotics engineer at RoboSina (2014–2016), building autonomous robots for national competitions. He holds three Iranian patents, including an apparatus for vehicle classification via inductive loops.</p>
 

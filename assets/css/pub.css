@@ -73,6 +73,13 @@
   padding: 0.05rem 0.5rem;
 }
 .pub-links a:hover { background: var(--navy); border-color: var(--navy); color: #fff; text-decoration: none; }
+.pub-award {
+  margin: 0 0 0.3rem;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #9a5b00;
+}
 .pub-note { font-family: var(--sans); font-size: 0.85rem; font-weight: 600; color: #b3261e; }
 
 @media (max-width: 600px) {

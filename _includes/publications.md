@@ -29,6 +29,9 @@
         {%- if pub.et_al %}, et al.{% endif -%}
       </p>
       {%- assign pub_year = pub.year | append: "" %}
+      {%- if pub.award %}
+      <p class="pub-award"><i class="fa-solid fa-award" aria-hidden="true"></i> {{ pub.award }}</p>
+      {%- endif %}
       <p class="pub-journal">{{ pub.conference }}{% if pub.year %}{% unless pub.conference contains pub_year %}, {{ pub_year }}{% endunless %}{% endif %}</p>
       <p class="pub-links">
         {%- if pub.doi %}<a href="https://doi.org/{{ pub.doi }}" rel="noopener">DOI</a>{% endif %}
@@ -48,7 +51,7 @@
 
 <h2 class="section-title" id="patents">Patents</h2>
 <ul class="dated-list">
-  <li><span class="date">2020</span><span>Apparatus for vehicle classification via inductive loop<br><span class="detail">Iranian Patent IR.139850140003008739</span></span></li>
-  <li><span class="date">2020</span><span>Smart robot for cleaning hemispherical cameras<br><span class="detail">Iranian Patent IR.139850140003008741</span></span></li>
-  <li><span class="date">2016</span><span>Agricultural robot with variable valve toxin system<br><span class="detail">Iranian Patent IR.139550140003003919</span></span></li>
+  <li><span class="date">2020</span><span>Apparatus for vehicle classification via inductive loop</span></li>
+  <li><span class="date">2020</span><span>Smart robot for cleaning hemispherical cameras</span></li>
+  <li><span class="date">2016</span><span>Agricultural robot with variable valve toxin system</span></li>
 </ul>

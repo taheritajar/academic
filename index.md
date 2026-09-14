@@ -7,7 +7,7 @@ schema_type: ProfilePage
 <section id="about" aria-labelledby="about-title">
 <h2 id="about-title" class="section-title">About Me</h2>
 
-<p class="lead">I am a Ph.D. student in <a href="https://www.augusta.edu/ccs/">Computer and Cyber Science</a> at <a href="https://www.augusta.edu/">Augusta University</a>, where I work as a Graduate Research Assistant at the <a href="https://www.jeoresearch.com/ccslab">ARVR Lab</a> under the supervision of <a href="https://www.jeoresearch.com/research">Dr. Jason Orlosky</a> and <a href="https://jieqiongzhao.github.io/">Dr. Jieqiong Zhao</a>.</p>
+<p class="lead">I am a Ph.D. student in <a href="https://www.augusta.edu/ccs/">Computer and Cyber Science</a> at <a href="https://www.augusta.edu/">Augusta University</a>, where I work as a Graduate Research Assistant at the <a href="https://www.jeoresearch.com/ccslab">ARVR Lab</a> under the supervision of <a href="https://www.jeoresearch.com/aboutme.html">Dr. Jason Orlosky</a> and <a href="https://jieqiongzhao.github.io/">Dr. Jieqiong Zhao</a>.</p>
 
 <p>My research focuses on <strong>intelligent mixed reality systems</strong> that integrate <strong>real-time 3D perception</strong>, <strong>multimodal large language models</strong>, and <strong>adaptive human-AI interaction</strong>. I investigate context-aware embodied AI agents that perceive and reason about the physical world, understand user intent, and dynamically adapt their behavior and interfaces to enable effective human-AI collaboration. My work has appeared at IEEE ISMAR, IEEE AIxVR, and CANS, and I have presented live demos at ICCV 2025 and CVPR 2026.</p>
 
@@ -40,6 +40,7 @@ schema_type: ProfilePage
 <section id="awards" aria-labelledby="awards-title">
 <h2 id="awards-title" class="section-title">Honors &amp; Awards</h2>
 <ul class="dated-list">
+  <li><span class="date">2026</span><span>Best Paper Nominee, <a href="https://doi.org/10.1109/AIxVR67263.2026.00015">IEEE AIxVR 2026</a></span></li>
   <li><span class="date">2026</span><span><a href="{{ '/assets/img/GRD_AWARD.jpg' | relative_url }}">Award of Excellence in Research</a>, Augusta University Graduate School</span></li>
   <li><span class="date">2024</span><span>Integrity Award, Augusta University Graduate School</span></li>
   <li><span class="date">2024</span><span>Certificate of Appreciation for Presentation, TechNet Augusta</span></li>
