@@ -17,9 +17,9 @@ main:
     image: /assets/img/ARVRag.jpg
 
   - title: "Scalable Object Detection in Mixed Reality using Incremental Re-training and One-shot 3D Annotation"
-    authors: Alireza Taheritajar, Jeffrey Benson, Brandon Wilburn, Jieqiong Zhao, Jason Orlosky
+    authors: Alireza Taheritajar, Jeffrey Benson, Anthony Gibson, Brandon Wilburn, Jieqiong Zhao, Jason Orlosky
     conference_short: ISMAR
-    conference: 2025 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)
+    conference: 2025 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), pp. 582–592
     year: 2025
     doi: 10.1109/ISMAR67309.2025.00040
     pdf: https://drive.google.com/file/d/1_nIPxSEX3L4jaAVj1wSdFiRWBrcriDhs/view?usp=sharing
@@ -29,7 +29,7 @@ main:
   - title: "Acoustic Side Channel Attack on Keyboards Based on Typing Patterns"
     authors: Alireza Taheritajar, Reza Rahaeimehr
     conference_short: CANS
-    conference: 24th International Conference on Cryptology and Network Security (CANS 2025)
+    conference: 24th International Conference on Cryptology and Network Security (CANS 2025), Lecture Notes in Computer Science, vol. 16351, Springer
     year: 2025
     doi: 10.1007/978-981-95-4434-9_26
     arxiv: https://arxiv.org/abs/2403.08740
@@ -38,7 +38,7 @@ main:
   - title: "A Survey on Acoustic Side Channel Attacks on Keyboards"
     authors: Alireza Taheritajar, Z. M. Harris, Reza Rahaeimehr
     conference_short: ICICS
-    conference: International Conference on Information and Communications Security (ICICS 2024)
+    conference: International Conference on Information and Communications Security (ICICS 2024), Springer
     year: 2024
     doi: 10.1007/978-981-97-8798-2_6
     image: /assets/img/survey.png
@@ -46,7 +46,7 @@ main:
   - title: "A lightweight Tiny-YOLOv3 vehicle detection approach"
     authors: Alireza Taheri Tajar, A. Ramazani, M. Mansoorizadeh
     conference_short: JRTIP
-    conference: Journal of Real-Time Image Processing
+    conference: Journal of Real-Time Image Processing, vol. 18, pp. 2389–2401
     year: 2021
     doi: 10.1007/s11554-021-01131-w
     code: https://github.com/taheritajar/A-lightweight-Tiny-YOLOv3-vehicle-detection-approach
@@ -57,6 +57,7 @@ main:
     et_al: true
     conference_short: NCCITAI
     conference: 4th National Conference on Computer, Information Technology and Applications of Artificial Intelligence (in Persian)
+    year: 2021
     pdf: https://en.civilica.com/doc/1238759/
 
   # - title: "Large Language Model-Powered Virtual Assistants for In-situ Secondary Language Acquisition"

@@ -18,7 +18,7 @@ personal_site: https://taheritajar.net/
 # `canonical` is the public URL of this site (no trailing slash). It is used for
 # canonical links, Open Graph, structured data and the sitemap.
 canonical: https://taheritajar.net/academic
-description: Alireza Taheritajar is a PhD student at Augusta University researching computer vision, artificial intelligence, and mixed reality for real-time 3D object understanding.
+description: Alireza Taheritajar is a PhD student at Augusta University researching intelligent mixed reality systems, real-time 3D perception, and human-AI interaction.
 
 # Images (paths relative to the site root)
 avatar: /assets/img/profile.jpg
@@ -44,21 +44,25 @@ person:
     - Alireza Taheri Tajar
     - A. Taheritajar
   knows_about:
-    - Computer Vision
     - Mixed Reality
     - Augmented Reality
-    - Artificial Intelligence
+    - Computer Vision
+    - Real-Time 3D Perception
+    - Multimodal Large Language Models
+    - Human-AI Interaction
+    - Embodied AI
     - Object Detection
     - Incremental Learning
-    - 3D Object Understanding
-    - Robotics
+    - Artificial Intelligence
   affiliation_sameas: https://en.wikipedia.org/wiki/Augusta_University
   alumni_of:
     - name: Bu-Ali Sina University
       url: https://basu.ac.ir/en
       sameas: https://en.wikipedia.org/wiki/Bu-Ali_Sina_University
   awards:
-    - Award of Excellence in Research, Augusta University (2026)
+    - Award of Excellence in Research, Augusta University Graduate School (2026)
+    - Integrity Award, Augusta University Graduate School (2024)
+    - Exceptionally Talented Student Award, Bu-Ali Sina University (2014)
 
 # Footer
 enable_last_update: true

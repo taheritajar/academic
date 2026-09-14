@@ -45,3 +45,10 @@
   </li>
 {%- endfor %}
 </ol>
+
+<h2 class="section-title" id="patents">Patents</h2>
+<ul class="dated-list">
+  <li><span class="date">2020</span><span>Apparatus for vehicle classification via inductive loop<br><span class="detail">Iranian Patent IR.139850140003008739</span></span></li>
+  <li><span class="date">2020</span><span>Smart robot for cleaning hemispherical cameras<br><span class="detail">Iranian Patent IR.139850140003008741</span></span></li>
+  <li><span class="date">2016</span><span>Agricultural robot with variable valve toxin system<br><span class="detail">Iranian Patent IR.139550140003003919</span></span></li>
+</ul>
