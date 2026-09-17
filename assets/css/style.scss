@@ -1,3 +1,107 @@
+---
+# Front matter tells Jekyll to process this file with Sass (output: assets/css/style.css)
+---
+
+/* ------------------------------------------------------------------
+   Fonts (self-hosted Crimson Pro + Source Sans 3, SIL Open Font License)
+   ------------------------------------------------------------------ */
+@font-face {
+  font-family: 'Crimson Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/crimsonpro-400i-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Crimson Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/crimsonpro-400i-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Crimson Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/crimsonpro-400-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Crimson Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/crimsonpro-400-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Crimson Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/assets/fonts/crimsonpro-600-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Crimson Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/assets/fonts/crimsonpro-600-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/sourcesans3-400-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/sourcesans3-400-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/assets/fonts/sourcesans3-600-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/assets/fonts/sourcesans3-600-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/assets/fonts/sourcesans3-700-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/assets/fonts/sourcesans3-700-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 /* ------------------------------------------------------------------
    Base
    ------------------------------------------------------------------ */
@@ -32,6 +136,21 @@ img { max-width: 100%; height: auto; }
 a { color: var(--link); text-decoration: none; }
 a:hover, a:focus-visible { color: var(--link-hover); text-decoration: underline; text-underline-offset: 2px; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+
+/* Links inside running text are underlined, so they are not identified by colour alone. */
+.content p a, .content li a, .content address a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  text-decoration-color: rgba(27, 90, 156, 0.4);
+}
+.content p a:hover, .content li a:hover, .content address a:hover { text-decoration-color: currentColor; }
+/* Titles and button-style links carry their own affordance, so they stay clean. */
+.content .pub-title a, .content .pub-links a, .content .interests a { text-decoration: none; }
+.content .pub-title a:hover, .content .pub-links a:hover { text-decoration: none; }
+
+/* Inline SVG icons replace the icon fonts the site used to load. */
+.icon { display: inline-block; vertical-align: -0.125em; flex: none; }
 
 strong, b { font-weight: 600; color: #16181d; }
 
@@ -111,6 +230,7 @@ li { margin-bottom: 0.3rem; }
 .profile-name a:hover { text-decoration: none; }
 
 .profile-meta { margin: 0 0 0.75rem; }
+.profile-meta a { display: inline-block; padding: 0.15rem 0; }
 .profile-position { color: var(--text); font-weight: 600; }
 .profile-meta a { color: var(--muted); }
 .profile-meta a:hover { color: var(--link-hover); }
@@ -131,8 +251,8 @@ li { margin-bottom: 0.3rem; }
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.95rem;
-  height: 1.95rem;
+  width: 2.2rem;
+  height: 2.2rem;
   border-radius: 50%;
   color: var(--navy);
   font-size: 1.15rem;
@@ -265,6 +385,15 @@ address { font-style: normal; }
   .content, .site-footer { max-width: none; }
 }
 
+/* Touch devices: give links and icon buttons a comfortable tap target. */
+@media (hover: none) and (pointer: coarse) {
+  .social-icons { gap: 0.15rem; }
+  .social-icons a { width: 2.85rem; height: 2.85rem; }
+  .profile-meta a, .profile-name a { padding: 0.4rem 0; }
+  .nav-links a { padding-block: 0.7rem; }
+  .content li { margin-bottom: 0.5rem; }
+}
+
 @media (max-width: 520px) {
   body { font-size: 1.08rem; }
   .wrapper { padding-left: 1rem; padding-right: 1rem; }
@@ -280,3 +409,6 @@ address { font-style: normal; }
   .profile { position: static; }
   a { color: inherit; }
 }
+
+@import "nav";
+@import "pub";

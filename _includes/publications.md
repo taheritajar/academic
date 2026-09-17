@@ -11,7 +11,7 @@
       {%- if pub.image %}
       <img src="{{ pub.image | relative_url }}" alt="Figure from {{ pub.title | escape }}" width="200" height="115" loading="lazy" decoding="async">
       {%- else %}
-      <div class="pub-teaser-empty" aria-hidden="true"><i class="fa-regular fa-file-lines"></i></div>
+      <div class="pub-teaser-empty" aria-hidden="true">{% include icon.html name="doc" %}</div>
       {%- endif %}
       <span class="pub-venue">{{ pub.conference_short }}{% if pub.year %} {{ pub.year }}{% endif %}</span>
     </div>
@@ -30,7 +30,7 @@
       </p>
       {%- assign pub_year = pub.year | append: "" %}
       {%- if pub.award %}
-      <p class="pub-award"><i class="fa-solid fa-award" aria-hidden="true"></i> {{ pub.award }}</p>
+      <p class="pub-award">{% include icon.html name="award" %} {{ pub.award }}</p>
       {%- endif %}
       <p class="pub-journal">{{ pub.conference }}{% if pub.year %}{% unless pub.conference contains pub_year %}, {{ pub_year }}{% endunless %}{% endif %}</p>
       <p class="pub-links">

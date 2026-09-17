@@ -75,6 +75,11 @@ enable_last_update: true
 plugins:
   - jekyll-redirect-from
 
+# One minified stylesheet: assets/css/style.scss imports _nav.scss and _pub.scss.
+sass:
+  sass_dir: assets/css
+  style: compressed
+
 # Analytics
 # clustrmaps_id:
 
