@@ -10,6 +10,7 @@
 <h2 class="subsection-title">Reviewing</h2>
 <ul class="plain-list">
   <li><a href="https://aivr.science.uu.nl/2026/" rel="noopener">IEEE International Conference on Artificial Intelligence and eXtended and Virtual Reality (AIxVR 2026)</a></li>
+  <li><a href="https://www.ieeeismar.net/2026/" rel="noopener">IEEE International Symposium on Mixed and Augmented Reality (ISMAR 2026)</a> <span class="detail">(<a href="{{ '/assets/img/ISMAR_CERT.jpg' | relative_url }}">certificate of appreciation</a>)</span></li>
   <li><a href="https://www.ieeeismar.net/2025/" rel="noopener">IEEE International Symposium on Mixed and Augmented Reality (ISMAR 2025)</a></li>
 </ul>
 

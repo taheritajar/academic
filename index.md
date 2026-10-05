@@ -43,6 +43,7 @@ schema_type: ProfilePage
 <section id="awards" aria-labelledby="awards-title">
 <h2 id="awards-title" class="section-title">Honors &amp; Awards</h2>
 <ul class="dated-list">
+  <li><span class="date">2026</span><span>Finalist (top three), PhD Student Research Competition, <a href="https://rstcon.org/">RSTCON 2026</a> <span class="detail">— invited speaker with travel and accommodation support</span></span></li>
   <li><span class="date">2026</span><span>Best Paper Nominee, <a href="https://doi.org/10.1109/AIxVR67263.2026.00015">IEEE AIxVR 2026</a></span></li>
   <li><span class="date">2026</span><span><a href="{{ '/assets/img/GRD_AWARD.jpg' | relative_url }}">Award of Excellence in Research</a>, Augusta University Graduate School</span></li>
   <li><span class="date">2024</span><span>Integrity Award, Augusta University Graduate School</span></li>

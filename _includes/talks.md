@@ -16,6 +16,7 @@
 
 <h2 class="subsection-title">Acoustic Side-Channel Attacks</h2>
 <ul class="plain-list">
+  <li><span class="label">Invited</span>“Acoustic Side Channel Attack on Keyboards Based on Typing Patterns,” <a href="https://rstcon.org/" rel="noopener">RSTCON 2026</a>, EPRI campus, Charlotte, NC, October 2026 <span class="detail">— top-three finalist, PhD Student Research Competition</span></li>
   <li><span class="label">Paper</span><a href="https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/index.html" rel="noopener">International Conference on Cryptology and Network Security (CANS 2025)</a>, Osaka University</li>
   <li><span class="label">Paper</span><a href="https://icics2024.aegean.gr/" rel="noopener">International Conference on Information and Communications Security (ICICS 2024)</a></li>
   <li><span class="label">Invited</span><a href="https://events.afcea.org/Augusta24/Public/SpeakerDetails.aspx?FromPage=Speakers.aspx&amp;ContactID=167451" rel="noopener">TechNet Augusta 2024</a></li>
