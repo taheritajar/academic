@@ -2,8 +2,10 @@
 <h2 id="news-title" class="section-title">News</h2>
 
 <ul class="dated-list">
+  
+  <li><span class="date">Oct 2026</span><span>Received a $1,000 funding award through the <a href="https://www.augusta.edu/mcg/medicine/research/trp/about-srp.php">Student Research Program (SRP)</a> at Augusta University to support my research.</span></li>
   <li><span class="date">Oct 2026</span><span>Served as a reviewer for <a href="https://www.ieeeismar.net/2026/">IEEE ISMAR 2026</a> and received a <a href="{{ '/assets/img/ISMAR_CERT.jpg' | relative_url }}">certificate of appreciation</a>.</span></li>
-  <li><span class="date">Sep 2026</span><span>Our paper “Acoustic Side Channel Attack on Keyboards Based on Typing Patterns” was selected as a top-three finalist in the <a href="https://rstcon.org/">RSTCON 2026</a> PhD Student Research Competition, with an invited presentation and travel support from Reset Group.</span></li>
+  <li><span class="date">Oct 2026</span><span>Our paper “Acoustic Side Channel Attack on Keyboards Based on Typing Patterns” won <a href="{{ '/assets/img/RSTCON.jpg' | relative_url }}">2nd place</a> in the <a href="https://rstcon.org/">RSTCON 2026</a> PhD Student Research Competition.</span></li>
   <li><span class="date">2026</span><span>Accepted to the IEEE VIS 2026 Doctoral Colloquium with “Toward Adaptive Human-AI Collaboration through In-Situ Multimodal Mixed Reality.”</span></li>
   <li><span class="date">2026</span><span>Serving as Publicity Chair for <a href="https://aivr.science.uu.nl/2027/aixvr2027_oc.html">IEEE AIxVR 2027</a>.</span></li>
   <li><span class="date">Jul 2026</span><span>Invited to present two of my research papers at the <a href="https://www.youtube.com/watch?v=BPXCOEvMDNw">OpenCV Weekly Webinar</a>.</span></li>
