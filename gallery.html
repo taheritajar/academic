@@ -1,0 +1,27 @@
+---
+layout: default
+title: Gallery
+permalink: /gallery/
+description: A few moments from conferences, research, and academic life.
+---
+
+<h1 class="page-title">Gallery</h1>
+<p class="gallery-intro">A few moments from conferences, research, and academic life.</p>
+
+<div class="gallery-grid">
+  {% for photo in site.data.gallery %}
+  {% assign image_path = '/assets/gallery/' | append: photo.image %}
+  {% assign preview_path = '/assets/gallery/' | append: photo.preview %}
+  <figure class="gallery-item">
+    <a class="gallery-image" href="{{ image_path | relative_url }}" aria-label="{{ photo.description | prepend: 'View full-size image: ' | escape }}">
+      <img src="{% if photo.preview %}{{ preview_path | relative_url }}{% else %}{{ image_path | relative_url }}{% endif %}"
+           alt="{{ photo.alt | default: photo.description | escape }}"
+           {% if photo.width and photo.height %}width="{{ photo.width }}" height="{{ photo.height }}"{% endif %}
+           loading="lazy" decoding="async">
+    </a>
+    <figcaption>{{ photo.description | escape }}</figcaption>
+  </figure>
+  {% else %}
+  <p>Photos coming soon.</p>
+  {% endfor %}
+</div>

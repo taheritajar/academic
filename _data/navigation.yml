@@ -16,3 +16,6 @@ main:
 
   - title: "Biography"
     url: /biography/
+
+  - title: "Gallery"
+    url: /gallery/

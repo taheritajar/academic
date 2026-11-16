@@ -1,0 +1,17 @@
+# Displayed in this order. Add a new entry and put its image in assets/gallery/.
+# preview is optional: a smaller copy makes the gallery load faster.
+# width and height are the dimensions of the preview (or image if no preview).
+# Optional alt: describe the scene if the short caption is not descriptive enough.
+- image: IEEEVIS-DC-2026.png
+  preview: previews/IEEEVIS-DC-2026.jpg
+  description: "IEEE VIS Doctoral Colloquium, 2026, at the MIT-IBM Computing Research Lab for the Doctoral Colloquium."
+  alt: "Group selfie of colloquium participants beside windows overlooking a river and city skyline."
+  width: 800
+  height: 639
+
+- image: IEEEVIS-DC-2026-1.png
+  preview: previews/IEEEVIS-DC-2026-1.jpg
+  description: "IEEE VIS 2026 participants at the MIT-IBM Computing Research Lab for the Doctoral Colloquium."
+  alt: "Colloquium participants posing together in a sunlit room overlooking a river."
+  width: 800
+  height: 600
