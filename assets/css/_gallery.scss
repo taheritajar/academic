@@ -49,7 +49,7 @@
 }
 .gallery-viewer::backdrop { background: rgba(7, 12, 20, 0.96); }
 .gallery-viewer-panel { position: relative; padding: 0.25rem; }
-.gallery-viewer-toolbar, .gallery-viewer-controls {
+.gallery-viewer-toolbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -57,7 +57,7 @@
   font: 400 0.9rem/1.4 var(--sans);
 }
 .gallery-viewer-count { color: #b6c0cf; font-variant-numeric: tabular-nums; letter-spacing: 0.12em; font-size: 0.8rem; }
-.gallery-viewer button, .gallery-viewer-original {
+.gallery-viewer button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -71,8 +71,8 @@
   cursor: pointer;
   transition: background-color 120ms ease;
 }
-.gallery-viewer button:hover, .gallery-viewer-original:hover { background: #344256; color: #fff; }
-.gallery-viewer button:focus-visible, .gallery-viewer-original:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+.gallery-viewer button:hover { background: #344256; color: #fff; }
+.gallery-viewer button:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
 .gallery-viewer svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
 .gallery-viewer [hidden] { display: none; }
 .gallery-viewer-figure { margin: 0.5rem 0 0; }
@@ -90,17 +90,24 @@
 .gallery-viewer-photo { width: 100%; height: 100%; min-height: 0; object-fit: contain; }
 .gallery-viewer-status { margin: 0; padding: 1rem 4rem; color: #b6c0cf; font-family: var(--sans); text-align: center; }
 .gallery-viewer-status:empty { display: none; }
-.gallery-viewer figcaption { margin: 1rem auto 0; padding-inline: 3rem; max-width: 760px; font-size: 1rem; line-height: 1.4; text-align: center; color: #d8dee8; overflow-wrap: anywhere; }
-.gallery-viewer-controls { justify-content: center; margin-top: 0.5rem; }
-.gallery-viewer-original { width: 44px; height: 44px; background: transparent; }
-.gallery-viewer-original svg { width: 18px; height: 18px; }
+.gallery-viewer figcaption {
+  margin: 1rem auto 0;
+  padding: 0.85rem 1rem;
+  max-width: 760px;
+  border-radius: 4px;
+  background: #101a29;
+  color: #fff;
+  font: 400 1.1rem/1.6 var(--sans);
+  text-align: center;
+  overflow-wrap: anywhere;
+}
 
 @media (max-width: 520px) {
   .gallery-viewer-prev { left: 4px; }
   .gallery-viewer-next { right: 4px; }
-  .gallery-viewer figcaption { padding-inline: 0.5rem; font-size: 0.95rem; }
+  .gallery-viewer figcaption { padding-inline: 0.75rem; font-size: 1rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .gallery-viewer button, .gallery-viewer-original { transition: none; }
+  .gallery-viewer button { transition: none; }
 }

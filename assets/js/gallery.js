@@ -8,7 +8,6 @@
   var photo = viewer.querySelector('.gallery-viewer-photo');
   var caption = viewer.querySelector('figcaption');
   var count = viewer.querySelector('.gallery-viewer-count');
-  var original = viewer.querySelector('.gallery-viewer-original');
   var stage = viewer.querySelector('.gallery-viewer-stage');
   var status = viewer.querySelector('.gallery-viewer-status');
   var previous = viewer.querySelector('.gallery-viewer-prev');
@@ -27,7 +26,6 @@
     photo.alt = thumbnail.alt;
     caption.textContent = link.closest('figure').querySelector('figcaption').textContent;
     count.textContent = (current + 1) + ' / ' + links.length;
-    original.href = link.href;
     photo.src = link.href;
   }
 
@@ -38,7 +36,7 @@
   });
   photo.addEventListener('error', function () {
     stage.setAttribute('aria-busy', 'false');
-    status.textContent = 'Unable to load this photo. Try opening the original.';
+    status.textContent = 'Unable to load this photo. Please try another photo or reopen the slideshow.';
   });
 
   links.forEach(function (link, index) {
