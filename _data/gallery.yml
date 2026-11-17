@@ -15,3 +15,45 @@
   alt: "Colloquium participants posing together in a sunlit room overlooking a river."
   width: 800
   height: 600
+
+- image: RSTCON.jpg
+  preview: previews/RSTCON.jpg
+  description: "Second place for our keyboard acoustic side-channel research, RSTCON 2026."
+  alt: "RSTCON certificate awarding Alireza Taheritajar second place in the Student Research Competition."
+  width: 800
+  height: 609
+
+- image: ISMAR_CERT.jpg
+  preview: previews/ISMAR_CERT.jpg
+  description: "Reviewer certificate of appreciation, IEEE ISMAR 2026."
+  alt: "IEEE ISMAR 2026 certificate recognizing Alireza Taheritajar's contribution as a reviewer."
+  width: 800
+  height: 567
+
+- image: CVPR.jpg
+  preview: previews/CVPR.jpg
+  description: "Presenting our mixed reality live demo at CVPR 2026 in Denver, Colorado."
+  alt: "Alireza beside a research poster, demonstration screen, and mixed reality headset at CVPR."
+  width: 800
+  height: 457
+
+- image: CVPR2.jpg
+  preview: previews/CVPR2.jpg
+  description: "At CVPR 2026 in Denver, Colorado."
+  alt: "Alireza standing beside large CVPR letters at the conference venue."
+  width: 800
+  height: 1067
+
+- image: GRD_AWARD.jpg
+  preview: previews/GRD_AWARD.jpg
+  description: "Augusta University's Award of Excellence in Research, 2026."
+  alt: "Framed Award of Excellence in Research presented to Alireza Taheritajar by Augusta University's Graduate School."
+  width: 800
+  height: 645
+
+- image: 41th-GRD.jpg
+  preview: previews/41th-GRD.jpg
+  description: "Poster presentation at Augusta University's 41st Graduate Research Day, March 2026."
+  alt: "Alireza presenting a poster on retrieval-enhanced object detection and AI explanation in mixed reality."
+  width: 684
+  height: 854
