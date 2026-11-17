@@ -30,19 +30,27 @@ description: A few moments from conferences, research, and academic life.
   <div class="gallery-viewer-panel">
     <div class="gallery-viewer-toolbar">
       <span class="gallery-viewer-count" aria-live="polite"></span>
-      <button class="gallery-viewer-close" type="button" autofocus aria-label="Close slideshow">Close &times;</button>
+      <button class="gallery-viewer-close" type="button" autofocus aria-label="Close slideshow" title="Close (Esc)">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg>
+      </button>
     </div>
     <figure class="gallery-viewer-figure">
       <div class="gallery-viewer-stage" aria-busy="false">
         <img class="gallery-viewer-photo" alt="">
         <p class="gallery-viewer-status" role="status"></p>
+        <button class="gallery-viewer-prev" type="button" aria-label="Previous photo" title="Previous (left arrow)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 5-7 7 7 7"/></svg>
+        </button>
+        <button class="gallery-viewer-next" type="button" aria-label="Next photo" title="Next (right arrow)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 5 7 7-7 7"/></svg>
+        </button>
       </div>
       <figcaption id="gallery-viewer-caption"></figcaption>
     </figure>
     <div class="gallery-viewer-controls">
-      <button class="gallery-viewer-prev" type="button" aria-label="Previous photo">&larr; Previous</button>
-      <a class="gallery-viewer-original">Open original</a>
-      <button class="gallery-viewer-next" type="button" aria-label="Next photo">Next &rarr;</button>
+      <a class="gallery-viewer-original" target="_blank" rel="noopener" aria-label="Open original image in a new tab" title="Open original image">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6m0-6L10 14M10 4H4v16h16v-6"/></svg>
+      </a>
     </div>
   </div>
 </dialog>
