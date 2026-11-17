@@ -25,3 +25,25 @@ description: A few moments from conferences, research, and academic life.
   <p>Photos coming soon.</p>
   {% endfor %}
 </div>
+
+<dialog class="gallery-viewer" aria-label="Photo slideshow" aria-describedby="gallery-viewer-caption">
+  <div class="gallery-viewer-panel">
+    <div class="gallery-viewer-toolbar">
+      <span class="gallery-viewer-count" aria-live="polite"></span>
+      <button class="gallery-viewer-close" type="button" autofocus aria-label="Close slideshow">Close &times;</button>
+    </div>
+    <figure class="gallery-viewer-figure">
+      <div class="gallery-viewer-stage" aria-busy="false">
+        <img class="gallery-viewer-photo" alt="">
+        <p class="gallery-viewer-status" role="status"></p>
+      </div>
+      <figcaption id="gallery-viewer-caption"></figcaption>
+    </figure>
+    <div class="gallery-viewer-controls">
+      <button class="gallery-viewer-prev" type="button" aria-label="Previous photo">&larr; Previous</button>
+      <a class="gallery-viewer-original">Open original</a>
+      <button class="gallery-viewer-next" type="button" aria-label="Next photo">Next &rarr;</button>
+    </div>
+  </div>
+</dialog>
+<script src="{{ '/assets/js/gallery.js' | relative_url }}" defer></script>

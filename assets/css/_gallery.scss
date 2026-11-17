@@ -36,3 +36,58 @@
 @media (max-width: 520px) {
   .gallery-grid { grid-template-columns: minmax(0, 1fr); }
 }
+
+.gallery-viewer-open { overflow: hidden; }
+.gallery-viewer {
+  width: min(1040px, calc(100% - 2rem));
+  max-width: none;
+  max-height: calc(100dvh - 2rem);
+  padding: 0;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  color: var(--text);
+  background: #fff;
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.25);
+}
+.gallery-viewer::backdrop { background: rgba(10, 20, 36, 0.88); }
+.gallery-viewer-panel { padding: 1rem; }
+.gallery-viewer-toolbar, .gallery-viewer-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font: 400 0.9rem/1.4 var(--sans);
+}
+.gallery-viewer-count { color: var(--muted); font-variant-numeric: tabular-nums; }
+.gallery-viewer button {
+  min-height: 44px;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: #fff;
+  color: var(--navy);
+  font: 600 0.9rem/1.4 var(--sans);
+  cursor: pointer;
+}
+.gallery-viewer button:hover { background: var(--soft); border-color: var(--muted); }
+.gallery-viewer [hidden] { display: none; }
+.gallery-viewer-figure { margin: 0.75rem 0; }
+.gallery-viewer-stage {
+  height: min(65vh, 700px);
+  height: min(65dvh, 700px);
+  display: grid;
+  place-items: center;
+  background: var(--soft);
+  border-radius: 4px;
+}
+.gallery-viewer-photo { width: 100%; height: 100%; min-height: 0; object-fit: contain; }
+.gallery-viewer-status { margin: 0; padding: 1rem; color: var(--muted); font-family: var(--sans); }
+.gallery-viewer-status:empty { display: none; }
+.gallery-viewer figcaption { margin-top: 0.75rem; font-size: 1rem; line-height: 1.4; }
+.gallery-viewer-original { padding: 0.5rem 0; text-decoration: underline; text-align: center; }
+
+@media (max-width: 520px) {
+  .gallery-viewer-panel { padding: 0.65rem; }
+  .gallery-viewer-controls { gap: 0.35rem; font-size: 0.8rem; }
+  .gallery-viewer button { padding-inline: 0.6rem; font-size: 0.8rem; }
+}

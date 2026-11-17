@@ -25,5 +25,10 @@ For fast loading, use an optimized JPEG or WebP around 800 pixels wide. To keep
 a larger original available on click, put a smaller copy in
 `assets/gallery/previews/` and add `preview: previews/my-photo.jpg`; in that case,
 set `width` and `height` to the preview's dimensions. The existing photos use
-this approach. Images load lazily, and the gallery needs no JavaScript or
-external libraries.
+this approach. Previews are created manually; Jekyll does not generate them.
+If you omit `preview`, the gallery displays the original image instead.
+
+Images load lazily. A small script loaded only on the gallery page opens an
+accessible slideshow with previous/next buttons, arrow keys, touch swipes, and
+Escape to close. Full-size images load when selected. No external libraries
+are needed; without JavaScript, images remain links to their originals.
